@@ -3,9 +3,14 @@ const Prediction = require('../models/Prediction')
 
 exports.getStudents = async (req, res, next) => {
 	try {
-		const students = await User.find({ role: 'student' })
-			.select('name email age createdAt')
-			.lean()
+
+		   // Only allow admin to access this endpoint
+		   if (req.userRole !== 'admin') {
+			   return res.status(403).json({ message: 'Access denied. Admins only.' })
+		   }
+		   const students = await User.find({ role: 'student' })
+			   .select('name email age createdAt')
+			   .lean()
 
 		const enriched = await Promise.all(
 			students.map(async (student) => {
