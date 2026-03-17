@@ -12,6 +12,7 @@ const UserSchema = new mongoose.Schema({
 	attendancePercent: { type: Number, default: 80, min: 0, max: 100 },
 	usesExtraResources: { type: Boolean, default: false },
 	extracurricular: { type: Boolean, default: false },
+	photo: { type: String, default: '' },
 }, { timestamps: true })
 
 UserSchema.pre('save', async function (next) {

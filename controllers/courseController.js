@@ -21,6 +21,28 @@ exports.getCourseById = async (req, res, next) => {
 		next(err)
 	}
 }
+exports.createSubject = async (req, res, next) => {
+	try {
+        if (req.user.role !== 'admin') {
+            return res.status(403).json({ message: 'Only admin can perform this action' })
+        }
+		const { name, shortName, description, category, videos } = req.body
+
+		if (!name || !shortName || !description || !category) {
+			return res.status(400).json({ message: 'All required fields must be provided' })
+		}
+        
+        const subject = await Subject.create({
+            name, shortName, description, category, videos: videos || [],
+            stressTag: 'medium_stress', // default
+            motivationBase: 3 // default
+        })
+
+		res.status(201).json({ message: 'Subject created successfully', subject })
+	} catch (err) {
+		next(err)
+	}
+}
 
 exports.saveWatchTime = async (req, res, next) => {
 	try {

@@ -42,8 +42,8 @@ const subjects = [
 		stressTag: 'high_stress',
 		motivationBase: 2,
 		videos: [
-			{ title: 'OS Introduction - Processes & Threads', youtubeId: 'vBURTt97EkA', duration: 36 },
-			{ title: 'CPU Scheduling Algorithms', youtubeId: 'EWkQl0n0w5M', duration: 42 },
+			{ title: 'Dummy Mock Video 1', youtubeId: 'dQw4w9WgXcQ', duration: 15 },
+			{ title: 'Dummy Mock Video 2', youtubeId: 'L_jWHffIx5E', duration: 42 },
 			{ title: 'Memory Management & Paging', youtubeId: 'qdkxqs_pthc', duration: 50 },
 			{ title: 'Deadlock - Detection & Prevention', youtubeId: 'UVo9mGARkhQ', duration: 38 },
 			{ title: 'File Systems Explained', youtubeId: 'KN8YgJnShPM', duration: 33 },
@@ -117,8 +117,8 @@ const subjects = [
 		stressTag: 'low_stress',
 		motivationBase: 5,
 		videos: [
-			{ title: 'HTML Full Course', youtubeId: 'mU6anWqZJcc', duration: 120 },
-			{ title: 'CSS Full Course', youtubeId: 'wRNinF7YQqQ', duration: 132 },
+			{ title: 'Dummy Mock HTML Video', youtubeId: 'pQN-pnXPaVg', duration: 120 },
+			{ title: 'Dummy Mock CSS Video', youtubeId: 'jS4aFq5-91M', duration: 132 },
 			{ title: 'JavaScript Full Course', youtubeId: 'W6NZfCO5SIk', duration: 330 },
 			{ title: 'Responsive Web Design', youtubeId: 'srvUrASNj0s', duration: 55 },
 			{ title: 'DOM Manipulation in JS', youtubeId: 'y17RuWkWdn8', duration: 40 },

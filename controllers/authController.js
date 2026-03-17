@@ -3,6 +3,9 @@ const crypto = require('crypto')
 const { OAuth2Client } = require('google-auth-library')
 const User = require('../models/User')
 
+const ADMIN_EMAIL = process.env.ADMIN_EMAIL || 'test@gmail.com'
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'test@123'
+
 const signToken = (user) =>
 	jwt.sign(
 		{ id: user._id, role: user.role },
@@ -43,7 +46,7 @@ exports.register = async (req, res, next) => {
 		   }
 
 		   let userRole = 'student';
-		   if (email === 'test@gmail.com' && password === 'test@123') {
+		   if (email === ADMIN_EMAIL && password === ADMIN_PASSWORD) {
 			   userRole = 'admin';
 		   }
 		   if (role === 'admin' && userRole !== 'admin') {
@@ -72,6 +75,7 @@ exports.register = async (req, res, next) => {
 				name: user.name,
 				email: user.email,
 				role: user.role,
+				photo: user.photo,
 			},
 		})
 	} catch (err) {
@@ -90,10 +94,10 @@ exports.login = async (req, res, next) => {
 		   if (!user || !(await user.matchPassword(password))) {
 			   return res.status(401).json({ message: 'Invalid email or password.' })
 		   }
-		   // Only allow admin login for test@gmail.com/test@123
+		   // Only allow admin login for predefined ADMIN_EMAIL
 		   if (user.role === 'admin') {
-			   if (!(email === 'test@gmail.com' && password === 'test@123')) {
-				   return res.status(403).json({ message: 'Only test@gmail.com can login as admin.' })
+			   if (!(email === ADMIN_EMAIL && password === ADMIN_PASSWORD)) {
+				   return res.status(403).json({ message: `Only ${ADMIN_EMAIL} can login as admin.` })
 			   }
 		   }
 		   const token = signToken(user)
@@ -104,6 +108,7 @@ exports.login = async (req, res, next) => {
 				   name: user.name,
 				   email: user.email,
 				   role: user.role,
+				   photo: user.photo,
 			   },
 		   })
 	} catch (err) {
@@ -160,7 +165,14 @@ exports.googleAuth = async (req, res, next) => {
 				attendancePercent: toNumber(attendancePercent, 80),
 				usesExtraResources: toBoolean(usesExtraResources),
 				extracurricular: toBoolean(extracurricular),
+				photo: payload.picture || '',
 			})
+		} else {
+			// Update the stored picture if it arrives from Google again
+			if (payload.picture && user.photo !== payload.picture) {
+				user.photo = payload.picture
+				await user.save()
+			}
 		}
 
 		const token = signToken(user)
@@ -172,6 +184,7 @@ exports.googleAuth = async (req, res, next) => {
 				name: user.name,
 				email: user.email,
 				role: user.role,
+				photo: user.photo,
 			},
 		})
 	} catch (err) {
@@ -220,6 +233,7 @@ exports.updateProfile = async (req, res, next) => {
 			attendancePercent,
 			usesExtraResources,
 			extracurricular,
+			photo,
 		} = req.body
 
 		if (!name || !String(name).trim()) {
@@ -238,6 +252,7 @@ exports.updateProfile = async (req, res, next) => {
 		if (attendancePercent !== undefined) user.attendancePercent = toNumber(attendancePercent, user.attendancePercent)
 		if (usesExtraResources !== undefined) user.usesExtraResources = toBoolean(usesExtraResources)
 		if (extracurricular !== undefined) user.extracurricular = toBoolean(extracurricular)
+		if (photo !== undefined) user.photo = photo
 
 		await user.save()
 
@@ -254,6 +269,7 @@ exports.updateProfile = async (req, res, next) => {
 				attendancePercent: user.attendancePercent,
 				usesExtraResources: user.usesExtraResources,
 				extracurricular: user.extracurricular,
+				photo: user.photo,
 			},
 		})
 	} catch (err) {
