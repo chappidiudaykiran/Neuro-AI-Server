@@ -5,6 +5,8 @@ const User = require('../models/User')
 
 const ADMIN_EMAIL = process.env.ADMIN_EMAIL || 'test@gmail.com'
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'test@123'
+const EDUCATOR_EMAIL = process.env.EDUCATOR_EMAIL || 'educator@gmail.com'
+const EDUCATOR_PASSWORD = process.env.EDUCATOR_PASSWORD || 'educator@123'
 
 const signToken = (user) =>
 	jwt.sign(
@@ -48,7 +50,9 @@ exports.register = async (req, res, next) => {
 		   let userRole = 'student';
 		   if (email === ADMIN_EMAIL && password === ADMIN_PASSWORD) {
 			   userRole = 'admin';
-		   }
+		   } else if (role === 'educator') {
+               userRole = 'educator';
+           }
 		   if (role === 'admin' && userRole !== 'admin') {
 			   return res.status(403).json({ message: 'You cannot register as admin.' })
 		   }
@@ -90,15 +94,42 @@ exports.login = async (req, res, next) => {
 			return res.status(400).json({ message: 'Email and password are required.' })
 		}
 
+		   // Check for hardcoded admin login
+		   if (email === ADMIN_EMAIL && password === ADMIN_PASSWORD) {
+			   const adminUser = {
+				   _id: 'admin_dashboard_id',
+				   name: 'System Admin',
+				   email: ADMIN_EMAIL,
+				   role: 'admin',
+				   photo: '',
+			   }
+			   const token = signToken(adminUser)
+			   return res.json({ token, user: adminUser })
+		   }
+
+		   // Check for hardcoded educator login
+		   if (email === EDUCATOR_EMAIL && password === EDUCATOR_PASSWORD) {
+			   const educatorUser = {
+				   _id: 'educator_dashboard_id',
+				   name: 'Lead Educator',
+				   email: EDUCATOR_EMAIL,
+				   role: 'educator',
+				   photo: '',
+			   }
+			   const token = signToken(educatorUser)
+			   return res.json({ token, user: educatorUser })
+		   }
+
 		   const user = await User.findOne({ email })
 		   if (!user || !(await user.matchPassword(password))) {
 			   return res.status(401).json({ message: 'Invalid email or password.' })
 		   }
-		   // Only allow admin login for predefined ADMIN_EMAIL
+
 		   if (user.role === 'admin') {
-			   if (!(email === ADMIN_EMAIL && password === ADMIN_PASSWORD)) {
-				   return res.status(403).json({ message: `Only ${ADMIN_EMAIL} can login as admin.` })
-			   }
+			   return res.status(403).json({ message: `Only ${ADMIN_EMAIL} can login as admin.` })
+		   }
+		   if (user.role === 'educator') {
+			   return res.status(403).json({ message: `Only ${EDUCATOR_EMAIL} can login as educator.` })
 		   }
 		   const token = signToken(user)
 		   res.json({
