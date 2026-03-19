@@ -11,6 +11,7 @@ exports.submitFeedback = async (req, res, next) => {
 			stressFelt,
 			confidenceRating,
 			enjoyedSubject,
+			feedbackText,
 			watchMinutes,
 			completionPct,
 		} = req.body
@@ -33,6 +34,7 @@ exports.submitFeedback = async (req, res, next) => {
 				stressFelt,
 				confidenceRating,
 				enjoyedSubject,
+				feedbackText,
 				watchMinutes: (existing.watchMinutes || 0) + (watchMinutes || 0),
 				completionPct: Math.max(existing.completionPct || 0, completionPct || 0),
 				attemptCount: (existing.attemptCount || 1) + 1,
@@ -56,6 +58,7 @@ exports.submitFeedback = async (req, res, next) => {
 			stressFelt,
 			confidenceRating,
 			enjoyedSubject,
+			feedbackText,
 			watchMinutes: watchMinutes || 0,
 			completionPct: completionPct || 0,
 		})

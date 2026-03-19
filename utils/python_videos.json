@@ -1,0 +1,632 @@
+[
+  {
+    "title": "Introduction to Python Course | Python for beginners",
+    "youtubeId": "6i3EGqOBRiU",
+    "duration": 10
+  },
+  {
+    "title": "Introduction to Python Programming | Python for Beginners #lec1",
+    "youtubeId": "DInMru2Eq6E",
+    "duration": 11
+  },
+  {
+    "title": "History of Python | Python Tutorials for Beginners #lec2",
+    "youtubeId": "1UzSDMJRh8c",
+    "duration": 8
+  },
+  {
+    "title": "Download and Install Python (3.10.6) and Pycharm | Python Tutorials for Beginners #lec3",
+    "youtubeId": "La1BdF_sunw",
+    "duration": 14
+  },
+  {
+    "title": "Writing First Python Program | Printing to Console in Python | Python Tutorials for Beginners #lec4",
+    "youtubeId": "lygaoUnJKF4",
+    "duration": 13
+  },
+  {
+    "title": "P_05 Coding Exercises for Beginners in Python - Exercise #1",
+    "youtubeId": "FP6qQgJI5f4",
+    "duration": 10
+  },
+  {
+    "title": "P_06 print() function & String concatenation(using +) in Python | Python Tutorials for Beginners",
+    "youtubeId": "6Nu9cvINQLk",
+    "duration": 9
+  },
+  {
+    "title": "P_07 Input function in Python | Take User Input in Python | Python Tutorials for Beginners",
+    "youtubeId": "sa97IyIOHxU",
+    "duration": 13
+  },
+  {
+    "title": "P_08 Variables in Python | Python Tutorials for Beginners",
+    "youtubeId": "a43BIxiZ5EM",
+    "duration": 15
+  },
+  {
+    "title": "P_09 Coding Exercises for Beginners in Python | Exercise #2 | Program to swap two numbers",
+    "youtubeId": "A8aYYz6YGCA",
+    "duration": 8
+  },
+  {
+    "title": "P_10 Variable Naming Rules in Python | Python Tutorials for Beginners",
+    "youtubeId": "Vn4RuZ4Y2M0",
+    "duration": 8
+  },
+  {
+    "title": "P_11 Data Types in Python | Python Tutorials for Beginners",
+    "youtubeId": "TTepNRy0wj8",
+    "duration": 24
+  },
+  {
+    "title": "P_12 Type Checking, Type Error and Type Conversion | Type Casting in Python",
+    "youtubeId": "_WY-p2ZKv9Q",
+    "duration": 15
+  },
+  {
+    "title": "P_13 Coding Exercises for Beginners in Python | Exercise #3 | Program to add digits of a number",
+    "youtubeId": "b7QWOgVjj1M",
+    "duration": 7
+  },
+  {
+    "title": "P_14 Operators in Python | Arithmetic Operators | Python Tutorials for Beginners",
+    "youtubeId": "kvVPeBBZdtM",
+    "duration": 15
+  },
+  {
+    "title": "P_15 Operators in Python | Assignment and Comparison Operators | Python Tutorials for Beginners",
+    "youtubeId": "ELNIUknegOE",
+    "duration": 14
+  },
+  {
+    "title": "Operators in Python | Logical Operators | Python Tutorials for Beginners #lec16",
+    "youtubeId": "-Mx5popgTtE",
+    "duration": 10
+  },
+  {
+    "title": "Operators in Python | Bitwise Operators | Python Tutorials for Beginners #lec17",
+    "youtubeId": "XbjQ-heGd58",
+    "duration": 17
+  },
+  {
+    "title": "Identity Operators in Python | Python Tutorials for Beginners #lec18",
+    "youtubeId": "BG3lg589HRE",
+    "duration": 20
+  },
+  {
+    "title": "Membership Operators in Python | Python Tutorials for Beginners #lec19",
+    "youtubeId": "MHl0Jj15crA",
+    "duration": 9
+  },
+  {
+    "title": "Coding Exercise for Beginners in Python | Exercise #4 | Python for Beginners #lec20",
+    "youtubeId": "0kLylf5uNNc",
+    "duration": 8
+  },
+  {
+    "title": "round() function in Python | Python Tutorials for Beginners #lec21",
+    "youtubeId": "CLjw2nCMpSY",
+    "duration": 21
+  },
+  {
+    "title": "f-Strings in Python | Python Tutorials for Beginners #lec22",
+    "youtubeId": "xGkF9Y38Gsc",
+    "duration": 10
+  },
+  {
+    "title": "Coding Exercise for Beginners in Python| Exercise 5 | Python for Beginners #lec23",
+    "youtubeId": "O2V97JC8zOY",
+    "duration": 7
+  },
+  {
+    "title": "If & If Else Conditional Statements in Python | Python Tutorials for Beginners#lec24",
+    "youtubeId": "MMzXz7EDTZM",
+    "duration": 19
+  },
+  {
+    "title": "Coding Exercise for Beginners in Python | Exercise 6| Python for Beginners #lec25",
+    "youtubeId": "WOvtTLePD3M",
+    "duration": 3
+  },
+  {
+    "title": "Nested If Else & elif Statements in Python | Python Tutorials for Beginners #lec26",
+    "youtubeId": "7498T9qPygI",
+    "duration": 23
+  },
+  {
+    "title": "P_27 Coding Exercise for Beginners in Python | Exercise 7 | Python Tutorials for Beginners",
+    "youtubeId": "a3n_9k06dY8",
+    "duration": 7
+  },
+  {
+    "title": "P_28 Coding Exercise for Beginners in Python | Exercise 8 | Python Tutorials for Beginners",
+    "youtubeId": "sY6j_UR3pGI",
+    "duration": 11
+  },
+  {
+    "title": "P_29 Multiple if Statements in Python  | Python Tutorials for Beginners",
+    "youtubeId": "O3MA3Hn7c2E",
+    "duration": 16
+  },
+  {
+    "title": "P_30 Coding Exercise for Beginners in Python | Exercise 9 | Python Tutorials for Beginners",
+    "youtubeId": "9OwSWGguQXs",
+    "duration": 9
+  },
+  {
+    "title": "P_31 Coding Exercise for Beginners in Python | Love Calculator | Python Tutorials for Beginners",
+    "youtubeId": "iRF5AB1VRS8",
+    "duration": 13
+  },
+  {
+    "title": "P_32 List in Python and List Functions | Python Tutorials for Beginners",
+    "youtubeId": "1tnFQDo05hQ",
+    "duration": 29
+  },
+  {
+    "title": "P_33  Random Module in Python | Python Tutorials for Beginners",
+    "youtubeId": "khZKoe0_B0I",
+    "duration": 13
+  },
+  {
+    "title": "P_34 Coding Exercise for Beginners in Python | Heads or Tails | Python Tutorials for Beginners",
+    "youtubeId": "7niNK-917fI",
+    "duration": 3
+  },
+  {
+    "title": "Coding Exercise for Beginners in Python |Exercise 12 | Python Tutorials for Beginners #lec35",
+    "youtubeId": "ORMBycShqnc",
+    "duration": 16
+  },
+  {
+    "title": "Fix Python Index Error:  List Index Out of Range | Python Tutorials for Beginners #lec36",
+    "youtubeId": "wpmXETzX6xc",
+    "duration": 7
+  },
+  {
+    "title": "Nested List in Python | Python Tutorials for Beginners #lec37",
+    "youtubeId": "KEpmUPxxjxI",
+    "duration": 11
+  },
+  {
+    "title": "Coding Exercise for Beginners in Python |Exercise 13 | Python Tutorials for Beginners #lec38",
+    "youtubeId": "jTIODDVCAus",
+    "duration": 13
+  },
+  {
+    "title": "Python Project 1 | Rock Paper Scissors Game in Python | Python for Beginners #lec39",
+    "youtubeId": "Qcefu1jVPds",
+    "duration": 26
+  },
+  {
+    "title": "Tuples in Python | Python Tutorials for Beginners #lec40",
+    "youtubeId": "zLFituJxj6c",
+    "duration": 21
+  },
+  {
+    "title": "Sets in Python | Python Tutorials for Beginners #lec41 Part1",
+    "youtubeId": "CTg_To0PwI8",
+    "duration": 16
+  },
+  {
+    "title": "Sets Methods in Python | Python Tutorials for Beginners | #Lec41 Part 2",
+    "youtubeId": "eEbTvbG3los",
+    "duration": 18
+  },
+  {
+    "title": "Sets Methods in Python | Python Tutorials for Beginners #lec41 Part3",
+    "youtubeId": "bniKXiB72lU",
+    "duration": 13
+  },
+  {
+    "title": "Sets Methods in Python | Python Tutorials for Beginners #lec41 Part4",
+    "youtubeId": "k1-ZjeIDnPo",
+    "duration": 14
+  },
+  {
+    "title": "For Loop in Python | Python Tutorials for Beginners #lec42",
+    "youtubeId": "k4R7FwL2XYA",
+    "duration": 20
+  },
+  {
+    "title": "For else in Python | Python Tutorials for Beginners #lec43",
+    "youtubeId": "jDJ718e-YIw",
+    "duration": 15
+  },
+  {
+    "title": "Coding Exercise for Beginners in Python |Exercise 14 | Python Tutorials for Beginners #lec44",
+    "youtubeId": "u-Ptydkqh7E",
+    "duration": 21
+  },
+  {
+    "title": "Coding Exercise for Beginners in Python |Exercise 15 | Python Tutorials for Beginners #lec45",
+    "youtubeId": "rzMdf7cmHc0",
+    "duration": 17
+  },
+  {
+    "title": "Range function in Python | Python range() function |Python Tutorials for Beginners #lec46",
+    "youtubeId": "YNDgutH6gjs",
+    "duration": 14
+  },
+  {
+    "title": "Coding Exercise for Beginners in Python |Exercise 16 | Python Tutorials for Beginners #lec47",
+    "youtubeId": "sI_Wb3JPQg8",
+    "duration": 3
+  },
+  {
+    "title": "Coding Exercise for Beginners in Python with solution | Exercise 17 |Python for Beginners #lec48",
+    "youtubeId": "nxYOmS7p6qY",
+    "duration": 8
+  },
+  {
+    "title": "Python Project 2 | Password Generator in Python | Python for Beginners #lec49",
+    "youtubeId": "hGuA9WKTtRs",
+    "duration": 22
+  },
+  {
+    "title": "While Loop in Python | Python Tutorials for Beginners #lec50",
+    "youtubeId": "KOfCkEIxh_o",
+    "duration": 27
+  },
+  {
+    "title": "Break Continue Pass in Python | Loop Control Statements | Python Tutorials for Beginners #lec51",
+    "youtubeId": "DpE5TJNNb9Q",
+    "duration": 28
+  },
+  {
+    "title": "Indentation in Python | Python Tutorials for Beginners #lec52",
+    "youtubeId": "xVndqyPFu-k",
+    "duration": 11
+  },
+  {
+    "title": "Hangman Game for beginners |Introduction | Python Project for beginners #lec53",
+    "youtubeId": "dIFRJe2uHB4",
+    "duration": 8
+  },
+  {
+    "title": "Hangman Game for beginners |Flowchart | Python Project for beginners #lec54",
+    "youtubeId": "earqUEBeudg",
+    "duration": 5
+  },
+  {
+    "title": "Hangman Game in Python | Python Project #3 | Python Project for beginners #lec55",
+    "youtubeId": "tMJbCWHAWQ4",
+    "duration": 32
+  },
+  {
+    "title": "Functions in Python | Introduction | Python for beginners #lec56",
+    "youtubeId": "eezLhJ5oGYg",
+    "duration": 24
+  },
+  {
+    "title": "Coding Exercise for Beginners in Python with solution | Exercise 18| Python for Beginners #lec57",
+    "youtubeId": "-gxUjXAG96U",
+    "duration": 12
+  },
+  {
+    "title": "Coding Exercise for Beginners in Python with solution |Exercise 19 | Python for Beginners #lec58",
+    "youtubeId": "O79JMm7GFlA",
+    "duration": 11
+  },
+  {
+    "title": "Coding Exercise for Beginners in Python with solution | Exercise 20 |Python for Beginners #lec59",
+    "youtubeId": "JpBamlGdb5I",
+    "duration": 11
+  },
+  {
+    "title": "Functions with Arguments in Python | Parameters vs Arguments | Python Tutorials for Beginners #lec60",
+    "youtubeId": "uY8QPE0dcSs",
+    "duration": 14
+  },
+  {
+    "title": "Types of Arguments in Python | Python Tutorials for Beginners #lec61",
+    "youtubeId": "OCbSteqZsKQ",
+    "duration": 21
+  },
+  {
+    "title": "*args and **kwargs in Python | Python Tutorials for Beginners #lec62",
+    "youtubeId": "pY6mZ-RbBZg",
+    "duration": 22
+  },
+  {
+    "title": "Coding Exercise for Beginners in Python with solution | Exercise 21 |Python for Beginners #lec63",
+    "youtubeId": "vvroag3Qds8",
+    "duration": 10
+  },
+  {
+    "title": "Coding Exercise for Beginners in Python with solution | Exercise 22 | Python for Beginners #lec64",
+    "youtubeId": "P2l6tzvHQWo",
+    "duration": 16
+  },
+  {
+    "title": "Python Project #4 | Caesar Cipher Introduction - part1 | Python Project for beginners #lec65",
+    "youtubeId": "0heejX0rtII",
+    "duration": 9
+  },
+  {
+    "title": "Python Project for beginners #4| Caesar Cipher - Complete Code | Python for Beginners #lec66",
+    "youtubeId": "HWhUuO7VV1o",
+    "duration": 32
+  },
+  {
+    "title": "Dictionaries in python | Dictionaries Built-in functions | Python Tutorials for Beginners #lec67",
+    "youtubeId": "C29qMZb9HrA",
+    "duration": 34
+  },
+  {
+    "title": "Coding Exercise for Beginners in Python with solution | Exercise 23 | Python for Beginners #lec68",
+    "youtubeId": "l-2HkbQymmM",
+    "duration": 8
+  },
+  {
+    "title": "Nested Dictionaries in Python | Python Tutorials for Beginners #lec69",
+    "youtubeId": "jakXbai-Wic",
+    "duration": 23
+  },
+  {
+    "title": "Coding Exercise for Beginners in Python with solution | Exercise 24 | Python for Beginners #lec70",
+    "youtubeId": "O1-whIFkco0",
+    "duration": 7
+  },
+  {
+    "title": "Python Project for beginners #5| Silent Auction Program-part 1  | Python for Beginners #lec71",
+    "youtubeId": "O_48EL9Zg0E",
+    "duration": 6
+  },
+  {
+    "title": "Python Project for beginners #5| Silent Auction Program-Complete Code | Python for Beginners #lec72",
+    "youtubeId": "oS8FekoPFKM",
+    "duration": 21
+  },
+  {
+    "title": "Functions with Return Statement in Python | Python Tutorials for Beginners #lec73",
+    "youtubeId": "LF7gVwJP8BA",
+    "duration": 18
+  },
+  {
+    "title": "Return Multiple values from a Function |Multiple return Statements| Python for Beginners #lec74",
+    "youtubeId": "-tb0Ur5_pjU",
+    "duration": 12
+  },
+  {
+    "title": "Coding Exercise for Beginners in Python with solution | Exercise 25 | Python for Beginners #lec75",
+    "youtubeId": "_LMhfUIWfiU",
+    "duration": 11
+  },
+  {
+    "title": "print vs return in Python | What is the Difference?| Python Tutorials for Beginners #lec76",
+    "youtubeId": "19PXDJCU3oc",
+    "duration": 11
+  },
+  {
+    "title": "Python Project for beginners #6| Calculator -Complete Code | Python for Beginners #lec77",
+    "youtubeId": "vlJ--mCPBCg",
+    "duration": 27
+  },
+  {
+    "title": "local and Global Scope in Python | Python Tutorials for Beginners #lec78",
+    "youtubeId": "3iIq6gq_xRo",
+    "duration": 15
+  },
+  {
+    "title": "Global keyword in Python | Modify a Global Variable | Python Tutorials for Beginners #lec79",
+    "youtubeId": "4mmqLhTxTVk",
+    "duration": 11
+  },
+  {
+    "title": "Python Project for beginners #7| Guess The Number -Complete Code | Python for Beginners #lec80",
+    "youtubeId": "QXX2ySfwEBM",
+    "duration": 26
+  },
+  {
+    "title": "Debugging in Python | Debugging Tips | Python Tutorials for Beginners #lec81",
+    "youtubeId": "wxvYoQBCap4",
+    "duration": 17
+  },
+  {
+    "title": "Python Project for beginners #8| Higher Lower Game - Complete Code | Python for Beginners #lec82",
+    "youtubeId": "BbBUns9yDEM",
+    "duration": 38
+  },
+  {
+    "title": "Python Project for beginners #9| Coffee Machine Project | Python for Beginners #lec83",
+    "youtubeId": "oREXmJPvLWk",
+    "duration": 41
+  },
+  {
+    "title": "OOP in Python | Object Oriented Programming | Python for Beginners #lec84",
+    "youtubeId": "Ic7ZBKqkS1E",
+    "duration": 21
+  },
+  {
+    "title": "Classes and Objects in Python | OOP in Python | Python for Beginners #lec85",
+    "youtubeId": "Gvm2Sg1rZek",
+    "duration": 17
+  },
+  {
+    "title": "Self and __init__() method in Python | Python Tutorials for Beginners #lec86",
+    "youtubeId": "G6Bd6tJ9ft0",
+    "duration": 18
+  },
+  {
+    "title": "Class Methods in Python | How to add Methods in Class | Python Tutorials for Beginners #lec87",
+    "youtubeId": "tJNsmm7ZUmk",
+    "duration": 21
+  },
+  {
+    "title": "Coding Exercise for Beginners in Python with solution | Exercise 26 | Python for Beginners #lec88",
+    "youtubeId": "cezNT43xmAY",
+    "duration": 13
+  },
+  {
+    "title": "Inheritance in Python | Python Tutorials for Beginners #lec89",
+    "youtubeId": "4SO3sScshvA",
+    "duration": 27
+  },
+  {
+    "title": "Multiple Inheritance in Python | Python Tutorials for Beginners #lec90",
+    "youtubeId": "Smlbgao6VL4",
+    "duration": 28
+  },
+  {
+    "title": "Multilevel Inheritance in Python | Python Tutorials for Beginners #lec91",
+    "youtubeId": "Fv1xFd3LzJo",
+    "duration": 21
+  },
+  {
+    "title": "Hierarchical Inheritance in Python | Python Tutorials for Beginners #lec92",
+    "youtubeId": "UYxJBJQZU-I",
+    "duration": 17
+  },
+  {
+    "title": "Hybrid Inheritance in Python | Python Tutorials for Beginners #lec93",
+    "youtubeId": "E6aDQWX-ASc",
+    "duration": 11
+  },
+  {
+    "title": "Diamond Problem in Inheritance | MRO in Python | C3 Linearization Algorithm Python Programming#lec94",
+    "youtubeId": "PSMYqfMP3Cs",
+    "duration": 29
+  },
+  {
+    "title": "File Handling in Python | Python Tutorials for Beginners #lec95",
+    "youtubeId": "Sx1Hjr67xO0",
+    "duration": 46
+  },
+  {
+    "title": "Python Project for beginners| Quiz Game Project | Python for Beginners #lec96",
+    "youtubeId": "YhmF0NQO0LQ",
+    "duration": 29
+  },
+  {
+    "title": "Modules in Python | Python Tutorials for Beginners #lec97",
+    "youtubeId": "L6BoHn8NdX4",
+    "duration": 25
+  },
+  {
+    "title": "Abstraction in Python | Python OOP Concepts| Python Tutorials for Beginners #lec98",
+    "youtubeId": "TenfEct8AxM",
+    "duration": 16
+  },
+  {
+    "title": "Abstract Class & Abstract Method in Python | Python Tutorials for Beginners #lec99",
+    "youtubeId": "64tJdFVh1Vs",
+    "duration": 27
+  },
+  {
+    "title": "Access Modifiers in Python | Public Protected Private  | Python for Beginners #lec100",
+    "youtubeId": "aF6usfcTYqQ",
+    "duration": 31
+  },
+  {
+    "title": "Encapsulation in Python | Getters & Setters methods | Python Tutorials for Beginners #lec101",
+    "youtubeId": "fjIUS1jlVkA",
+    "duration": 18
+  },
+  {
+    "title": "Polymorphism in Python  | Python Tutorials for Beginners #lec102",
+    "youtubeId": "UPT4Q_sTOpY",
+    "duration": 10
+  },
+  {
+    "title": "Duck Typing in Python| Python Tutorials for beginners #lec103",
+    "youtubeId": "mbpHqb04BI8",
+    "duration": 17
+  },
+  {
+    "title": "Operator Overloading in Python | Polymorphism | Python Tutorials for Beginners #lec104",
+    "youtubeId": "CGZJ-d4T5eQ",
+    "duration": 23
+  },
+  {
+    "title": "Method Overloading and Method Overriding| Python Tutorials for Beginners #lec105",
+    "youtubeId": "1gJQMSZ05HA",
+    "duration": 16
+  },
+  {
+    "title": "Magic/Dunder Methods in Python | Python Tutorials #lec106",
+    "youtubeId": "ZZ04bIag-HU",
+    "duration": 18
+  },
+  {
+    "title": "Coding Exercise with solution | Exercise 27 | Python for Beginners #lec107",
+    "youtubeId": "F7cm393pMYk",
+    "duration": 11
+  },
+  {
+    "title": "pip & PyPI in python | Packages in Python | Python Tutorials for Beginners #lec108",
+    "youtubeId": "h2fu66y0_uA",
+    "duration": 20
+  },
+  {
+    "title": "Packages in Python | Python Tutorials for Beginners #lec109",
+    "youtubeId": "bcDMDlH3Vu8",
+    "duration": 25
+  },
+  {
+    "title": "If __name__ == '__main__ ' in Python | Python Tutorials for Beginners #lec110",
+    "youtubeId": "8qlf6Cg037o",
+    "duration": 22
+  },
+  {
+    "title": "Python Turtle Graphics Introduction | Python Tutorials for Beginners #lec111",
+    "youtubeId": "BxYR_sABIww",
+    "duration": 28
+  },
+  {
+    "title": "Python Turtle graphics | part 2 | Python Tutorials for Beginners #lec112",
+    "youtubeId": "UmwQ1ROPYBs",
+    "duration": 33
+  },
+  {
+    "title": "Turtle Coding Exercise for Beginners in Python |Exercise 28 | Python for Beginners #lec113",
+    "youtubeId": "hkyQEaDg_gM",
+    "duration": 6
+  },
+  {
+    "title": "Turtle Coding Exercise for Beginners in Python |Exercise 29 | Python for Beginners #lec114",
+    "youtubeId": "1u4yQe-1WN0",
+    "duration": 13
+  },
+  {
+    "title": "Coding Exercise for Beginners in Python |Exercise 30 | Python for Beginners #lec115",
+    "youtubeId": "FFrBaOUgbgg",
+    "duration": 17
+  },
+  {
+    "title": "Coding Exercise for Beginners in Python |Exercise 31 | Python for Beginners #lec116",
+    "youtubeId": "HiTbawXkcIA",
+    "duration": 22
+  },
+  {
+    "title": "Coding Exercise for Beginners in Python |Exercise 32 | Python for Beginners #lec118",
+    "youtubeId": "i0cbG0hlWg8",
+    "duration": 13
+  },
+  {
+    "title": "Python Project for beginners #11| Turtle Race Project | Python for Beginners #lec119",
+    "youtubeId": "y38sbuRjhAs",
+    "duration": 40
+  },
+  {
+    "title": "Python Higher Order Functions | Python Tutorials for Beginners #lec120",
+    "youtubeId": "KKJ-Vvewu0w",
+    "duration": 19
+  },
+  {
+    "title": "Python Event Listeners | Python Tutorials for Beginners #lec121",
+    "youtubeId": "7dnk_wE79i4",
+    "duration": 19
+  },
+  {
+    "title": "Coding Exercise for Beginners in Python |Exercise 33 | Python for Beginners #lec122",
+    "youtubeId": "sql6iaFe5D4",
+    "duration": 8
+  },
+  {
+    "title": "Extracting RGB values from Image in Python | Colorgram Package | Python for Beginners #lec117",
+    "youtubeId": "q06z4k57R5E",
+    "duration": 15
+  }
+]

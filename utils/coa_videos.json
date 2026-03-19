@@ -1,0 +1,332 @@
+[
+  {
+    "title": "L-1.1: Computer Organization and Architecture Syllabus Discussion for GATE and UGC NTA NET",
+    "youtubeId": "L9X7XXfHYdU",
+    "duration": 10
+  },
+  {
+    "title": "L-1.2: Von Neumann's Architecture | Stored Memory Concept in Computer Architecture",
+    "youtubeId": "j8NnE1YeSN0",
+    "duration": 10
+  },
+  {
+    "title": "L-1.3:Various General Purpose Registers in Computer Organization and Architecture",
+    "youtubeId": "2mowjC3dCqk",
+    "duration": 15
+  },
+  {
+    "title": "L-1.4:Types of Buses (Address, Data and Control) in Computer Organization and Architecture",
+    "youtubeId": "xBYhHC8_A6o",
+    "duration": 8
+  },
+  {
+    "title": "L-1.5: Common bus system using multiplexer | Computer organization and Architecture",
+    "youtubeId": "nbDd46e_LpE",
+    "duration": 11
+  },
+  {
+    "title": "L-1.6: Common Bus system| How basic computer works",
+    "youtubeId": "60fQEm6oodc",
+    "duration": 19
+  },
+  {
+    "title": "L-1.7: Types of Instructions in General Purpose Computer | Computer Organization and Architecture",
+    "youtubeId": "r6PChksvxp8",
+    "duration": 5
+  },
+  {
+    "title": "L-1.8: Data Transfer Instructions in Computer Organisation and Architecture",
+    "youtubeId": "bNkiChXPRhM",
+    "duration": 8
+  },
+  {
+    "title": "L-1.9: Arithmetic Instructions(Data Manipulation) in Computer Organisation and Architecture",
+    "youtubeId": "M0znE3jqaxs",
+    "duration": 9
+  },
+  {
+    "title": "L-1.10: Logical Instructions(Data Manipulation) in Computer Organisation and Architecture",
+    "youtubeId": "_YJU5WFT9qw",
+    "duration": 9
+  },
+  {
+    "title": "L-1.11: Shift Instructions(Data Manipulation) in Computer Organisation and Architecture",
+    "youtubeId": "i2UKe6lgrqg",
+    "duration": 13
+  },
+  {
+    "title": "L-1.12: Program Control Instructions(Types of Control Instructions) | Computer Organization",
+    "youtubeId": "OXz7wKHr0_I",
+    "duration": 11
+  },
+  {
+    "title": "L-1.13: What is Instruction Format | Understand Computer Organisation with Simple Story",
+    "youtubeId": "WAO_W6Hpzyk",
+    "duration": 11
+  },
+  {
+    "title": "L-1.14: Question on Instruction Format | Computer Organization | UGC NTA NET June 2021",
+    "youtubeId": "GZz9nz7Vgb0",
+    "duration": 9
+  },
+  {
+    "title": "L-1.15: Single Accumulator CPU Organisation | Single Address Instructions in Computer Organisation",
+    "youtubeId": "k5YMLXPy1SE",
+    "duration": 8
+  },
+  {
+    "title": "L-1.16: General Register CPU Organisation | Two and Three Address Instructions | COA",
+    "youtubeId": "Za7ozdjE8VI",
+    "duration": 7
+  },
+  {
+    "title": "L-1.17: Register Stack Organisation | Zero Address Instructions | COA",
+    "youtubeId": "u-sp4gBAJKI",
+    "duration": 12
+  },
+  {
+    "title": "L-1.18:Memory Stack Organisation | Memory stack Vs Register stack  | COA",
+    "youtubeId": "C1H5gurIcJk",
+    "duration": 6
+  },
+  {
+    "title": "L-2.1: What is Addressing Mode | Various Types of Addressing Modes | COA",
+    "youtubeId": "_CH4cm5PhK8",
+    "duration": 12
+  },
+  {
+    "title": "L-2.2: Implied Addressing Mode | Computer Organisation and Architecture",
+    "youtubeId": "a0jr953kLo8",
+    "duration": 5
+  },
+  {
+    "title": "L-2.3: Immediate Addressing Mode | Computer Organisation and Architecture",
+    "youtubeId": "mtr7oumkwuk",
+    "duration": 7
+  },
+  {
+    "title": "L-2.4: Register Mode | Addressing Mode | Computer Organisation and Architecture",
+    "youtubeId": "PgQIeB-d6HE",
+    "duration": 5
+  },
+  {
+    "title": "L-2.5: Register Indirect Mode | Addressing Modes | Computer Organisation and Architecture",
+    "youtubeId": "pqwWQD9Pgjg",
+    "duration": 6
+  },
+  {
+    "title": "L-2.6: Auto Increment and Decrement Addressing Modes | Computer Organisation and Architecture",
+    "youtubeId": "7RP8SLdW0S0",
+    "duration": 7
+  },
+  {
+    "title": "L-2.7: Direct Addressing Mode || Computer Organization and Architecture",
+    "youtubeId": "5A677So9epQ",
+    "duration": 5
+  },
+  {
+    "title": "L-2.8: Indirect Addressing Mode | Computer Organisation and Architecture",
+    "youtubeId": "l7QV6FBTGdE",
+    "duration": 6
+  },
+  {
+    "title": "`L-2.9: Relative Addressing Mode || Computer Organisation and Architecture",
+    "youtubeId": "Na7sLEioUjU",
+    "duration": 7
+  },
+  {
+    "title": "L-2.10: Base Register Addressing Mode || Computer Organisation and Architecture",
+    "youtubeId": "Bicfyvcp__s",
+    "duration": 7
+  },
+  {
+    "title": "L-2.11: Indexed Addressing Mode || Computer Organisation and Architecture",
+    "youtubeId": "18ZVSnz0JcY",
+    "duration": 4
+  },
+  {
+    "title": "L-2.12: Question on Addressing Modes | Computer Organization",
+    "youtubeId": "fGnMnGyfZVs",
+    "duration": 5
+  },
+  {
+    "title": "L-2.13: RISC vs CISC | Computer Organization & Architecture",
+    "youtubeId": "ZW1gb3h-f9k",
+    "duration": 8
+  },
+  {
+    "title": "L-3.1: Memory Hierarchy in Computer Architecture | Access time, Speed, Size, Cost | All Imp Points",
+    "youtubeId": "zwovvWfkuSg",
+    "duration": 8
+  },
+  {
+    "title": "L-3.2: Independent vs Hierarchical Memory Organization | 2-Level Memory Organization",
+    "youtubeId": "-B8N9nltt8Q",
+    "duration": 10
+  },
+  {
+    "title": "L-3.3: 3-Level Memory Organisation || Computer Organisation and Architecture",
+    "youtubeId": "3-tT52RzgBs",
+    "duration": 8
+  },
+  {
+    "title": "L-3.4: GATE 2004 Question on 3-Level Memory Organisation || Computer Organisation and Architecture",
+    "youtubeId": "_VNY-nhkMhw",
+    "duration": 6
+  },
+  {
+    "title": "L-3.5: What is Cache Mapping || Cache Mapping techniques || Computer Organisation and Architecture",
+    "youtubeId": "m1dA7D6c3C0",
+    "duration": 8
+  },
+  {
+    "title": "L-3.6: Direct Mapping with Example in Hindi | Cache Mapping | Computer Organisation and Architecture",
+    "youtubeId": "eObN3u3eAnU",
+    "duration": 22
+  },
+  {
+    "title": "L-3.7: GATE 2005 Question on Direct Mapping | Cache Mapping Questions | Computer Organization",
+    "youtubeId": "jZ2jRBVhgSY",
+    "duration": 7
+  },
+  {
+    "title": "L-3.8: Fully Associative Mapping with examples in Hindi | Cache Mapping | Computer Organisation",
+    "youtubeId": "sLCJJdz0WAg",
+    "duration": 10
+  },
+  {
+    "title": "L-3.9: Advantages and Disadvantages of Direct Mapping | Cache Mapping | Computer Organisation",
+    "youtubeId": "i7o3sxFk454",
+    "duration": 9
+  },
+  {
+    "title": "L-3.10: Set Associative Mapping with Examples in Hindi | Cache Mapping | Computer Organisation",
+    "youtubeId": "pFndaJARM4Q",
+    "duration": 11
+  },
+  {
+    "title": "L-3.11: Locality of Reference in Cache Memory | Spatial Vs Temporal Locality | Computer Organization",
+    "youtubeId": "E6QATWzjWZU",
+    "duration": 9
+  },
+  {
+    "title": "L-3.12: Cache Replacement Algorithms in Computer Organisation and Architecture",
+    "youtubeId": "EXRicJapuOQ",
+    "duration": 6
+  },
+  {
+    "title": "L-3.13: LRU (Least Recently Used) Cache Replacement Algorithm | Computer Organisation & Architecture",
+    "youtubeId": "w32d1lD0Jb0",
+    "duration": 9
+  },
+  {
+    "title": "L-3.14: Gate 2014 Question on Set Associative Cache Mapping | Computer Organisation and Architecture",
+    "youtubeId": "cy7BoO1b66k",
+    "duration": 8
+  },
+  {
+    "title": "L-3.15: FIFO Cache Replacement Policy with example | Computer Organisation and Architecture",
+    "youtubeId": "e8ZrvrNdp9o",
+    "duration": 9
+  },
+  {
+    "title": "L-3.16: LRU(least recently used ) Cache Replacement Policy | Computer Organisation and Architecture",
+    "youtubeId": "7mcy_xMNGF4",
+    "duration": 8
+  },
+  {
+    "title": "L-4.1: Pipelining with real life example| Need of Pipelining | COA",
+    "youtubeId": "Al95Owan9Ck",
+    "duration": 8
+  },
+  {
+    "title": "L-4.2: Pipelining Introduction and structure | Computer Organisation",
+    "youtubeId": "nv0yAm5gc-E",
+    "duration": 4
+  },
+  {
+    "title": "L-4.3: Pipelining Vs Non-Pipelining | Instruction Execution | Speedup, Efficiency, Utilization | COA",
+    "youtubeId": "R9s34-lnd9k",
+    "duration": 13
+  },
+  {
+    "title": "L-4.4: Stage Delay in Pipeline | Previous Year GATE Question | Computer Organisation & Architecture",
+    "youtubeId": "-YtmPoGCdfM",
+    "duration": 11
+  },
+  {
+    "title": "L-4.5: Numerical Question on Pipelining | Previous year GATE Question | COA",
+    "youtubeId": "BlnI-eZSt4M",
+    "duration": 4
+  },
+  {
+    "title": "L-4.6: What is Hazard in Pipelining | various types of Hazards | computer Architecture",
+    "youtubeId": "srlgaJgaxRE",
+    "duration": 10
+  },
+  {
+    "title": "L-4.7: Structural Hazards in Pipelining | Types of Hazards with Example in Hindi",
+    "youtubeId": "qn7zf_OSLsk",
+    "duration": 10
+  },
+  {
+    "title": "L-4.8: Control Hazards in Pipelining | Types of Hazards with Example in Hindi",
+    "youtubeId": "BuaIGznkhHQ",
+    "duration": 14
+  },
+  {
+    "title": "L-4.9: What is Read After Write(RAW) Hazards| Data Hazard in Pipelining with Example in Hindi | COA",
+    "youtubeId": "cMKn19y4_9E",
+    "duration": 8
+  },
+  {
+    "title": "L-4.10: Write After Read Hazard with Example | Data Hazards| Computer Organization and Architecture",
+    "youtubeId": "PWz5VEMYDP8",
+    "duration": 9
+  },
+  {
+    "title": "L-4.11: Write After Write Hazard | Data Hazards in Pipelining | Computer Organization &&Architecture",
+    "youtubeId": "-6JjmJNy3nA",
+    "duration": 6
+  },
+  {
+    "title": "L-4.12: Register Renaming in Computer Organization | Data Hazard",
+    "youtubeId": "3NieJAgkYiw",
+    "duration": 10
+  },
+  {
+    "title": "L-4.13: Operand Forwarding in Computer Organization & Architecture | Data Hazard",
+    "youtubeId": "gkgqVEPi3Fk",
+    "duration": 11
+  },
+  {
+    "title": "I/O Interface in Computer Organization",
+    "youtubeId": "PM728r4oGcE",
+    "duration": 6
+  },
+  {
+    "title": "Interrupts in 8085 microprocessor | Types of Interrupts in Computer Organization",
+    "youtubeId": "1aG3aFEKxyA",
+    "duration": 10
+  },
+  {
+    "title": "Daisy Chaining in Priority Interrupt | Priority Based Interrupt in I/O Organization",
+    "youtubeId": "QvSmbkcmff0",
+    "duration": 7
+  },
+  {
+    "title": "Parallel priority interrupt | I/O organization",
+    "youtubeId": "dXOH3Czy5aw",
+    "duration": 8
+  },
+  {
+    "title": "Question on Interrupt Handling(I/O organization) | Computer Organization | UGC NTA NET June 2021",
+    "youtubeId": "-IlIVW1F5dw",
+    "duration": 9
+  },
+  {
+    "title": "Question on DMA (Direct Memory Access) | Input/Output Organization| COA | UGC NTA NET June 2021",
+    "youtubeId": "qhbgkyi_fbw",
+    "duration": 7
+  }
+]

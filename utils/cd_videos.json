@@ -1,0 +1,247 @@
+[
+  {
+    "title": "CD | Introduction | Introduction and various phases of compiler | Ravindrababu Ravula",
+    "youtubeId": "Qkwj65l_96I",
+    "duration": 10
+  },
+  {
+    "title": "[Private video]",
+    "youtubeId": "9PvXqQbihbo",
+    "duration": 10
+  },
+  {
+    "title": "CD | Introduction | Symbol table entries | Ravindrababu Ravula | Free GATE CS Classes",
+    "youtubeId": "l4cDv5mhO2M",
+    "duration": 9
+  },
+  {
+    "title": "CD | Introduction | Operation of the symbol table | Ravindrababu Ravula | Free GATE CS Classes",
+    "youtubeId": "7o2Lc8Xk43Q",
+    "duration": 7
+  },
+  {
+    "title": "CD | Introduction | Gate 2012 on symbol table | Ravindrababu Ravula | Free GATE CS Classes",
+    "youtubeId": "QHuXfY2ih48",
+    "duration": 5
+  },
+  {
+    "title": "[Private video]",
+    "youtubeId": "VYbWhx0LL2g",
+    "duration": 10
+  },
+  {
+    "title": "CD | Introduction | Introduction to Lexical Analyzer and Grammars | Ravindrababu Ravula | Free GATE",
+    "youtubeId": "WccZQSERfCM",
+    "duration": 20
+  },
+  {
+    "title": "[Private video]",
+    "youtubeId": "V_Br2Oqto_I",
+    "duration": 10
+  },
+  {
+    "title": "CD | Introduction | Ambiguous Grammars and Making Them Unambiguous | Ravindrababu Ravula | Free GATE",
+    "youtubeId": "9vmhcBpZDcE",
+    "duration": 23
+  },
+  {
+    "title": "CD | Introduction | Elimination of Left Recursion and Left Factoring the Grammars | RBR",
+    "youtubeId": "3_VCoBfrt9c",
+    "duration": 30
+  },
+  {
+    "title": "CD | Parsers | Introduction to parsers and LL(1) parsing | Ravindrababu Ravula |Free GATE CS Classes",
+    "youtubeId": "N9UuAPU6DAg",
+    "duration": 20
+  },
+  {
+    "title": "CD | Parsers | Examples on how to find first and follow in LL(1) | Ravindrababu Ravula |Free GATE CS",
+    "youtubeId": "_uSlP91jmTM",
+    "duration": 22
+  },
+  {
+    "title": "CD | Parsers | Construction of LL(1) Parsing Table | Ravindrababu Ravula | Free GATE CS Classes",
+    "youtubeId": "R1ZlWEZWMKk",
+    "duration": 27
+  },
+  {
+    "title": "CD | Parsers | Recursive Descent Parser | Ravindrababu Ravula | Free GATE CS Classes",
+    "youtubeId": "SH5F-rwWEog",
+    "duration": 8
+  },
+  {
+    "title": "CD | Parsers | Operator grammar & Operator precedence parser | Ravindrababu Ravula | Free GATE CS",
+    "youtubeId": "n5UWAaw_byw",
+    "duration": 38
+  },
+  {
+    "title": "CD | Parsers | LR parsing, LR(0) items and LR(0) parsing table | Ravindrababu Ravula | Free GATE CS",
+    "youtubeId": "APJ_Eh60Qwo",
+    "duration": 19
+  },
+  {
+    "title": "CD | Parsers | LR(0) parsing example and SLR(1) | Ravindrababu Ravula | Free GATE CS Classes",
+    "youtubeId": "0kiTNN2kHyY",
+    "duration": 23
+  },
+  {
+    "title": "CD | Parsers | Examples of LR(0) and SLR(1) | Ravindrababu Ravula | Free GATE CS Classes",
+    "youtubeId": "MIg2ymmMn4k",
+    "duration": 20
+  },
+  {
+    "title": "CD | Parsers | Examples of LR(0) and SLR(1) | Ravindrababu Ravula | Free GATE CS Classes",
+    "youtubeId": "5s4CWn6GiwY",
+    "duration": 22
+  },
+  {
+    "title": "CD | Parsers | CLR(1) and LALR(1) Parsers | Ravindrababu Ravula | Free GATE CS Classes",
+    "youtubeId": "VSkfnRfNuwI",
+    "duration": 27
+  },
+  {
+    "title": "CD | Parsers | Conflicts and examples of CLR(1) and LALR(1) | Ravindrababu Ravula | Free GATE CS",
+    "youtubeId": "Nxj0g1mk5Ak",
+    "duration": 29
+  },
+  {
+    "title": "CD | Parsers | Examples of CLR(1) and LALR(1) and comparison of all the parsers |Ravindrababu Ravula",
+    "youtubeId": "1XD2wk52-Cs",
+    "duration": 41
+  },
+  {
+    "title": "CD | Syntax Directed Translation | Syntax directed translation examples | Ravindrababu Ravula",
+    "youtubeId": "queUceGJqh0",
+    "duration": 29
+  },
+  {
+    "title": "CD | Syntax Directed Translation | Examples of SDT | Ravindrababu Ravula | Free GATE CS Classes",
+    "youtubeId": "fmRgKPLEROg",
+    "duration": 30
+  },
+  {
+    "title": "CD | Syntax Directed Translation | S attributed and L attributed definitions | Ravindrababu Ravula",
+    "youtubeId": "rdnAJBoFKOw",
+    "duration": 26
+  },
+  {
+    "title": "CD | SDT | SDT to add type information into symbol table   both S attributed and L attributed RBR",
+    "youtubeId": "zTSXQZCNNjs",
+    "duration": 25
+  },
+  {
+    "title": "CD | Directed Acyclic Graph | Directed Acyclic Graph with Examples | Ravindrababu Ravula | Free GATE",
+    "youtubeId": "p4QYLwiH3h8",
+    "duration": 47
+  },
+  {
+    "title": "CD |Directed Acyclic Graph|Common sub expression elimination, copy propagation, constant propagation",
+    "youtubeId": "LNjyBTLWk3g",
+    "duration": 22
+  },
+  {
+    "title": "CD | Intermediate Code Generation | Introduction to intermediate code | Ravindrababu Ravula",
+    "youtubeId": "lqLTGmPIMN0",
+    "duration": 11
+  },
+  {
+    "title": "CD | Intermediate Code Generation | Various representations of 3 address code | Ravindrababu Ravula",
+    "youtubeId": "Sr8KmAg8eH8",
+    "duration": 13
+  },
+  {
+    "title": "[Private video]",
+    "youtubeId": "8nlNGevlOuY",
+    "duration": 10
+  },
+  {
+    "title": "[Private video]",
+    "youtubeId": "eQr1x1BVj68",
+    "duration": 10
+  },
+  {
+    "title": "CD | Intermediate Code Generation | Gate 2007 Question intermediate code generation | RBR",
+    "youtubeId": "J4uaPQxmQg8",
+    "duration": 12
+  },
+  {
+    "title": "[Private video]",
+    "youtubeId": "XGwQHnXSBGs",
+    "duration": 10
+  },
+  {
+    "title": "[Private video]",
+    "youtubeId": "R8h6StV2RUk",
+    "duration": 10
+  },
+  {
+    "title": "CD | Runtime environment | Introduction to Runtime environment | Ravindrababu Ravula | Free GATE CS",
+    "youtubeId": "kx2cnll1p4E",
+    "duration": 25
+  },
+  {
+    "title": "CD | Code Optimization | Introduction to code optimization | Ravindrababu Ravula | Free GATE CS",
+    "youtubeId": "41yMIwn85k0",
+    "duration": 8
+  },
+  {
+    "title": "[Private video]",
+    "youtubeId": "heUUTlCKA-0",
+    "duration": 10
+  },
+  {
+    "title": "[Private video]",
+    "youtubeId": "6uno2dlHgUc",
+    "duration": 10
+  },
+  {
+    "title": "CD | Code Optimization | Types of loop optimization | Ravindrababu Ravula | Free GATE CS Classes",
+    "youtubeId": "EvJzQFUQPQI",
+    "duration": 12
+  },
+  {
+    "title": "CD | Code Optimization | Machine dependent optimization | Ravindrababu Ravula | Free GATE CS Classes",
+    "youtubeId": "UTkekWJuqK8",
+    "duration": 8
+  },
+  {
+    "title": "CD | Code Optimization | Machine independent optimization | Ravindrababu Ravula | Free GATE CS",
+    "youtubeId": "mHLZC4zGj0g",
+    "duration": 6
+  },
+  {
+    "title": "CD | Liveness Analysis | Introduction to Liveness Analysis |Ravindrababu Ravula |Free GATE CS Clsses",
+    "youtubeId": "0QcDCP0k2VQ",
+    "duration": 23
+  },
+  {
+    "title": "CD | Liveness Analysis | Liveness Analysis of Variable Part 2 | Ravindrababu Ravula | Free GATE CS",
+    "youtubeId": "tcLydLQ0Bt4",
+    "duration": 21
+  },
+  {
+    "title": "CD | Liveness Analysis | Example -1 | Ravindrababu Ravula | Free GATE CS Classes",
+    "youtubeId": "jCZzH5Y8wrg",
+    "duration": 8
+  },
+  {
+    "title": "CD | Liveness Analysis | Example 2 | Ravindrababu Ravula | Free GATE CS Classes",
+    "youtubeId": "cT2-cAu4lR0",
+    "duration": 7
+  },
+  {
+    "title": "CD | Liveness Analysis | Liveness Analysis Algorithm | Ravindrababu Ravula | Free GATE CS Classes",
+    "youtubeId": "M8TDk_FEkmI",
+    "duration": 22
+  },
+  {
+    "title": "CD | Liveness Analysis | Example 1 on Liveness Analysis Algorithm | Ravindrababu Ravula",
+    "youtubeId": "wf3HY88SIzE",
+    "duration": 17
+  },
+  {
+    "title": "CD | Liveness Analysis | Example 2 on Liveness Analysis Algorithm | Ravindrababu Ravula",
+    "youtubeId": "WE9SH-dcsM4",
+    "duration": 7
+  }
+]

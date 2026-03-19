@@ -10,6 +10,36 @@ exports.getCourses = async (req, res, next) => {
 	}
 }
 
+exports.getCategoriesSummary = async (req, res, next) => {
+    try {
+        const summary = await Subject.aggregate([
+            { $group: { _id: "$category", count: { $sum: 1 } } },
+            { $project: { category: "$_id", count: 1, _id: 0 } },
+            { $sort: { category: 1 } }
+        ])
+        res.json(summary)
+    } catch (err) {
+        next(err)
+    }
+}
+
+exports.getCoursesByCategory = async (req, res, next) => {
+    try {
+        const { categorySlug } = req.params;
+        const slugToCat = {
+            'cs-core': 'CS Core',
+            'gate-prep': 'GATE Prep',
+            'programming': 'Programming',
+        }
+        const decodedCategory = slugToCat[categorySlug] || categorySlug.replace(/-/g, ' ')
+        
+        const courses = await Subject.find({ category: new RegExp(`^${decodedCategory}$`, 'i') }).select('-__v')
+        res.json(courses)
+    } catch (err) {
+        next(err)
+    }
+}
+
 exports.getCourseById = async (req, res, next) => {
 	try {
 		const course = await Subject.findById(req.params.id)
@@ -39,6 +69,40 @@ exports.createSubject = async (req, res, next) => {
         })
 
 		res.status(201).json({ message: 'Subject created successfully', subject })
+	} catch (err) {
+		next(err)
+	}
+}
+
+exports.updateSubject = async (req, res, next) => {
+	try {
+        if (req.user.role !== 'admin') {
+            return res.status(403).json({ message: 'Only admin can perform this action' })
+        }
+		const { name, shortName, description, category, videos } = req.body
+
+		const subject = await Subject.findByIdAndUpdate(
+            req.params.id,
+            { name, shortName, description, category, videos: videos || [] },
+            { new: true, runValidators: true }
+        )
+        if (!subject) return res.status(404).json({ message: 'Subject not found' })
+
+		res.json({ message: 'Subject updated successfully', subject })
+	} catch (err) {
+		next(err)
+	}
+}
+
+exports.deleteSubject = async (req, res, next) => {
+	try {
+        if (req.user.role !== 'admin') {
+            return res.status(403).json({ message: 'Only admin can perform this action' })
+        }
+		const subject = await Subject.findByIdAndDelete(req.params.id)
+        if (!subject) return res.status(404).json({ message: 'Subject not found' })
+
+		res.json({ message: 'Subject deleted successfully' })
 	} catch (err) {
 		next(err)
 	}

@@ -1,0 +1,752 @@
+[
+  {
+    "title": "C_01 Introduction to C Language | C Programming Tutorials",
+    "youtubeId": "EjavYOFoJJ0",
+    "duration": 10
+  },
+  {
+    "title": "C_02 Low level vs High level Languages | Machine and Assembly Language | Programming in C",
+    "youtubeId": "E6jtj-7xJoA",
+    "duration": 14
+  },
+  {
+    "title": "C_03 Language Translators | Compiler | Interpreter | Assembler | C Programming Tutorials",
+    "youtubeId": "qcEBXrqFLe8",
+    "duration": 13
+  },
+  {
+    "title": "C_04 Features of C Language | Use of C Language | C Programming Tutorials",
+    "youtubeId": "i3SWaOhjPCY",
+    "duration": 9
+  },
+  {
+    "title": "C_05 Structure of a C Program | Programming in C",
+    "youtubeId": "HucJhUkDJuk",
+    "duration": 21
+  },
+  {
+    "title": "C_06 Execution Process of a C Program | C Programming Tutorials",
+    "youtubeId": "_FOkG5D4NBo",
+    "duration": 9
+  },
+  {
+    "title": "C_07 Constants in C | Types of Constants | Programming in C",
+    "youtubeId": "6gVT64lk764",
+    "duration": 20
+  },
+  {
+    "title": "C_08 Variables in C Programming | C Programming Tutorials",
+    "youtubeId": "dhh5lrXXXYw",
+    "duration": 15
+  },
+  {
+    "title": "C_09 Keywords and Identifiers | Programming in C",
+    "youtubeId": "Ywnv78X7TAg",
+    "duration": 10
+  },
+  {
+    "title": "C_10 Data Types in C - Part 1 | C Programming Tutorials for Beginners",
+    "youtubeId": "NyT9vvSBoeo",
+    "duration": 20
+  },
+  {
+    "title": "C_11 Data Types in C - Part 2 | Programming in C",
+    "youtubeId": "tUijuz8aEJA",
+    "duration": 20
+  },
+  {
+    "title": "C_12 Data Types in C - Part 3 | C Programming Tutorials",
+    "youtubeId": "vUsiWt7PHdQ",
+    "duration": 21
+  },
+  {
+    "title": "C_13 Operators in C - Part 1 | Unary , Binary and Ternary Operators in C | C programming Tutorials",
+    "youtubeId": "E1_Gg6dURwk",
+    "duration": 16
+  },
+  {
+    "title": "C_14 Operators in C - Part 2 | Arithmetic & Assignment Operators | C Programming Tutorials",
+    "youtubeId": "lMv8vIqpUsY",
+    "duration": 14
+  },
+  {
+    "title": "C_15 Operators in C - Part 3  |  C Programming Tutorials",
+    "youtubeId": "Z3WjR_KEVjk",
+    "duration": 12
+  },
+  {
+    "title": "C_16 Operators in C - Part 4  |  C Programming Tutorials",
+    "youtubeId": "wgJ1OrvOWGs",
+    "duration": 21
+  },
+  {
+    "title": "C_17 Operators in C - Part 5 (Logical Operators) |  C Programming Tutorials",
+    "youtubeId": "8XWiUEvp0Mk",
+    "duration": 21
+  },
+  {
+    "title": "C_18 Operators in C - Part 6 | Bitwise Operators |  C Programming Tutorials",
+    "youtubeId": "egUyaWtsQc0",
+    "duration": 15
+  },
+  {
+    "title": "C_19 Operators in C - Part 7 (Bitwise Operators-II) |  C Programming Tutorials",
+    "youtubeId": "LP0acaj3ZLE",
+    "duration": 18
+  },
+  {
+    "title": "C_20 Operators in C - Part 8 | Comma Operator |  C Programming Tutorials",
+    "youtubeId": "Gmc5dsIrNUA",
+    "duration": 18
+  },
+  {
+    "title": "C_21 Operators Precedence and Associativity in C | C programming Tutorials",
+    "youtubeId": "hOLAoo2p7gM",
+    "duration": 11
+  },
+  {
+    "title": "C_22 Common Errors done by Beginners while writing Programs | C programming tutorials",
+    "youtubeId": "j_3GDNwogRQ",
+    "duration": 9
+  },
+  {
+    "title": "C_23 Formatted Input Functions in C Language || C Programming",
+    "youtubeId": "eoZp-5lQyqY",
+    "duration": 19
+  },
+  {
+    "title": "C_24 Formatted Output Functions in C Language | printf() function in C | C Programming Tutorials",
+    "youtubeId": "JYvCVpxGB9w",
+    "duration": 17
+  },
+  {
+    "title": "C_25 Unformatted Input Functions in C | C Programming Tutorials",
+    "youtubeId": "BeVQ8YmgBRQ",
+    "duration": 14
+  },
+  {
+    "title": "C_26 Unformatted Output Functions in C | C Programming Tutorials",
+    "youtubeId": "H5YZKl-XzHY",
+    "duration": 12
+  },
+  {
+    "title": "C_27 If Statement in C | C Programming Tutorials",
+    "youtubeId": "oYuRtXcwXqw",
+    "duration": 21
+  },
+  {
+    "title": "C_28 If-Else Statement in C | C Programming Tutorials",
+    "youtubeId": "oWTnLzWkF5w",
+    "duration": 11
+  },
+  {
+    "title": "C_29 Nested If in C | C Programming Tutorials",
+    "youtubeId": "ySIWMLJI7HI",
+    "duration": 15
+  },
+  {
+    "title": "C_30 else if ladder in C | C Programming Tutorials",
+    "youtubeId": "sRCtrviXnLs",
+    "duration": 14
+  },
+  {
+    "title": "C_31 Switch Statement In C | C Programming Tutorials",
+    "youtubeId": "BHS4iA7bsDk",
+    "duration": 23
+  },
+  {
+    "title": "C_32 C Program to make simple calculator using Switch Case | C Language Tutorials",
+    "youtubeId": "1567inlTJKc",
+    "duration": 15
+  },
+  {
+    "title": "C_33 Introduction to Loop in C Language | Need of loops| C Language Tutorials",
+    "youtubeId": "BpeIfof3VBk",
+    "duration": 16
+  },
+  {
+    "title": "C_34 For loop in C  | C Programming Tutorials",
+    "youtubeId": "agl3vjzbG2o",
+    "duration": 12
+  },
+  {
+    "title": "C_35 Properties of For loop in C | C Programming Tutorials",
+    "youtubeId": "EqQ6ZZ1V8Rw",
+    "duration": 27
+  },
+  {
+    "title": "C_36 C Program to Print Table of a Number | C Language Tutorials",
+    "youtubeId": "AauQihC817o",
+    "duration": 10
+  },
+  {
+    "title": "C_37 While Loop in C (part-1) | C Language Tutorials",
+    "youtubeId": "IGuoF98qEG0",
+    "duration": 12
+  },
+  {
+    "title": "C_38 While Loop in C (part-2) | C Language Tutorials",
+    "youtubeId": "ocX2FN1nguA",
+    "duration": 19
+  },
+  {
+    "title": "C_39 Do while loop in C with program | C Programming Tutorials",
+    "youtubeId": "nohmBtIby_k",
+    "duration": 8
+  },
+  {
+    "title": "C_40 Difference between for, while and do while loop in C | C Programming Tutorials",
+    "youtubeId": "Z3zUwN98uRQ",
+    "duration": 8
+  },
+  {
+    "title": "C_41 Break statement in C | C Language Tutorials",
+    "youtubeId": "PLgJsMEPKec",
+    "duration": 14
+  },
+  {
+    "title": "C_42 Continue Statement in C | C Programming Tutorials",
+    "youtubeId": "6mTxoCb1m94",
+    "duration": 16
+  },
+  {
+    "title": "C_43 Need of Nested Loops in C | Nested For loop in C",
+    "youtubeId": "5v1w0V4GPrE",
+    "duration": 19
+  },
+  {
+    "title": "C_44 Nested while loop in C | C Programming Tutorials",
+    "youtubeId": "3cSRV_1bzUE",
+    "duration": 8
+  },
+  {
+    "title": "C_45 Nested do while loop in C | C Programming Tutorials",
+    "youtubeId": "LSeyx5qkveU",
+    "duration": 10
+  },
+  {
+    "title": "C_46 Arrays in C - part 1 | Introduction to Arrays",
+    "youtubeId": "08LWytp6PNI",
+    "duration": 18
+  },
+  {
+    "title": "C_47 Arrays in C - Part 2 | Initialization of arrays in C programming",
+    "youtubeId": "kMwYD03kVk0",
+    "duration": 14
+  },
+  {
+    "title": "C_48 Arrays in C- part 3 | Memory Representation and Accessing of Array elements",
+    "youtubeId": "c3KCnqciBZE",
+    "duration": 12
+  },
+  {
+    "title": "C-49 Arrays in C - Part 4 | Array Program 1 | C Programming Tutorials",
+    "youtubeId": "ZxqOvg05O6w",
+    "duration": 19
+  },
+  {
+    "title": "C-50 Arrays in C - Part 5 | Array Program 2 | C Programming Tutorials",
+    "youtubeId": "Q8XOkEqXYks",
+    "duration": 16
+  },
+  {
+    "title": "C-51 Arrays in C - Part 6 | Array Program 3 | C Programming Tutorials",
+    "youtubeId": "riR0PTY49MA",
+    "duration": 16
+  },
+  {
+    "title": "C_52 Arrays in C - part 7 | Array Program 4 | C Programming",
+    "youtubeId": "Ev4w7CDNuWE",
+    "duration": 17
+  },
+  {
+    "title": "C_53 Introduction to Two Dimensional (2D) Arrays in C",
+    "youtubeId": "HMBYWhpP8i4",
+    "duration": 13
+  },
+  {
+    "title": "C_54 Two Dimensional(2D) Arrays in C | Initialization of 2D Arrays",
+    "youtubeId": "FMjWTzPSZKA",
+    "duration": 16
+  },
+  {
+    "title": "C_55 Access Array Elements |Memory Representation of 2D Arrays | C Programming Tutorials",
+    "youtubeId": "_iZ3c7V-thw",
+    "duration": 8
+  },
+  {
+    "title": "C_56 2D Arrays Program 1| Program to print Matrix and calculate Sum | C Programming",
+    "youtubeId": "ga_SvTsLzuk",
+    "duration": 18
+  },
+  {
+    "title": "C_57 Two Dimensional Array program 2 | Program to print Transpose of Matrix",
+    "youtubeId": "EmqelMa54Y4",
+    "duration": 16
+  },
+  {
+    "title": "C_58 Program to print Sum of individual Rows and Columns of a Matrix | C Programming",
+    "youtubeId": "veODe7OvKIA",
+    "duration": 17
+  },
+  {
+    "title": "C_59 Program to add Two Matrix in C | C language tutorials",
+    "youtubeId": "r9X_zqhblsw",
+    "duration": 17
+  },
+  {
+    "title": "C_60 C program for Matrix Multiplication part 1 | C Language Tutorials",
+    "youtubeId": "rzNF4f707Jc",
+    "duration": 12
+  },
+  {
+    "title": "C_61 C program for Matrix Multiplication part2 | C Language Tutorials",
+    "youtubeId": "1TrgKl8DRk8",
+    "duration": 21
+  },
+  {
+    "title": "C_62 Strings in C - part 1 | C programming tutorials",
+    "youtubeId": "x_3FKTDkGT8",
+    "duration": 16
+  },
+  {
+    "title": "C_63 Strings in C-part 2 | Read a String using scanf and gets function",
+    "youtubeId": "PR6D3sRM4oA",
+    "duration": 18
+  },
+  {
+    "title": "C_64 Strings in C- part 3 | printf and puts function in C",
+    "youtubeId": "HIDHDpI8dps",
+    "duration": 10
+  },
+  {
+    "title": "C_65 C Program to Read and Print a String | C Programming Tutorials",
+    "youtubeId": "E00P5cZfnFQ",
+    "duration": 13
+  },
+  {
+    "title": "C_66 Program to Find Length of a String | C Programming Language",
+    "youtubeId": "LgDABwcKrTw",
+    "duration": 17
+  },
+  {
+    "title": "C_67 C Program to concatenate two strings | with strcat() and without strcat()",
+    "youtubeId": "LFPoPHBiWCE",
+    "duration": 22
+  },
+  {
+    "title": "C_68 C program to Compare two Strings | with strcmp() and without strcmp() function",
+    "youtubeId": "la1jAMx_Lzc",
+    "duration": 27
+  },
+  {
+    "title": "C_69 C Program to Reverse a String | with strrev() and without strrev() function",
+    "youtubeId": "530jWnBMD2M",
+    "duration": 25
+  },
+  {
+    "title": "C_70 C Program to convert a String from Upper Case to Lower Case |with strlwr() and without strlwr()",
+    "youtubeId": "CFhYszg2y-8",
+    "duration": 18
+  },
+  {
+    "title": "C_71 Pointers in C - part 1| Introduction to pointers in C | C Programming Tutorials",
+    "youtubeId": "IuDJeGqEZ3A",
+    "duration": 17
+  },
+  {
+    "title": "C_72 Pointers in C- part 2 |Address of(&) and Indirection (*) operator in Pointers I C Programming",
+    "youtubeId": "qqRUp28pPFk",
+    "duration": 22
+  },
+  {
+    "title": "C_73 Pointers in C- part 3 | Pointer Assignment",
+    "youtubeId": "MdSj5aVEZm0",
+    "duration": 13
+  },
+  {
+    "title": "C_74 Pointers in C- part 4 | Pointer to Pointer (Double Pointer)",
+    "youtubeId": "TPNYntM-5o4",
+    "duration": 25
+  },
+  {
+    "title": "C_75 Pointers in C-part 5 | Pointer Arithmetic (Addition) with program",
+    "youtubeId": "Ayo5St0tMhw",
+    "duration": 23
+  },
+  {
+    "title": "C_76 Pointers in C- part 6 | Pointer Arithmetic (Subtraction) with program",
+    "youtubeId": "i3E5PcyellU",
+    "duration": 18
+  },
+  {
+    "title": "C_77 Pointers in C- part 7 | Pointer Arithmetic (Increment/Decrement) program",
+    "youtubeId": "EQycVyNOTL8",
+    "duration": 21
+  },
+  {
+    "title": "C_78 Problems on Pointers | Important question with answer",
+    "youtubeId": "d7r4LKN28iA",
+    "duration": 12
+  },
+  {
+    "title": "C_79 Coding Problems on Pointers | Important Question with Answer",
+    "youtubeId": "eR1QpyQabEc",
+    "duration": 15
+  },
+  {
+    "title": "C_80 Void Pointer in C | Detailed explanation with program",
+    "youtubeId": "Sq0xsFBJ_nM",
+    "duration": 18
+  },
+  {
+    "title": "C_81 Null Pointer in C | C Programming Tutorials",
+    "youtubeId": "KBzQU2p0dhY",
+    "duration": 22
+  },
+  {
+    "title": "C_82 What is Dangling pointer in C | C Language Tutorials",
+    "youtubeId": "6izXC4lg2WU",
+    "duration": 23
+  },
+  {
+    "title": "C_83 What is Wild Pointer in C | C Language Tutorials",
+    "youtubeId": "Lh_dUg74R74",
+    "duration": 13
+  },
+  {
+    "title": "C_84 Introduction to Functions - part 1 | C Language Tutorials",
+    "youtubeId": "f--fD8Y0RnA",
+    "duration": 24
+  },
+  {
+    "title": "C_85 Function in C - part 2 | Function Declaration with program",
+    "youtubeId": "-NbLKVOK0JQ",
+    "duration": 25
+  },
+  {
+    "title": "C_86 Functions in C-part 3 |Function Definition in C",
+    "youtubeId": "L7KwSw3VRnA",
+    "duration": 15
+  },
+  {
+    "title": "C_87 Functions in C- part 4 |Call by Value & Call by Reference in C",
+    "youtubeId": "xx_IPRSWtGE",
+    "duration": 26
+  },
+  {
+    "title": "C_88 Functions in C -part 5 | Function with No Argument No Return Type",
+    "youtubeId": "y4a60WVYBYU",
+    "duration": 15
+  },
+  {
+    "title": "C_89 Functions in C - part 6 | Function Without Argument With Return Type",
+    "youtubeId": "dCP5bn2Kee8",
+    "duration": 19
+  },
+  {
+    "title": "C_90 Functions in C-part 7 | Function With Argument Without Return Type",
+    "youtubeId": "Me0a2wKD6og",
+    "duration": 21
+  },
+  {
+    "title": "C_91 Functions in C- part 8 | Function With Argument and Return Type",
+    "youtubeId": "szu6LgTP8jU",
+    "duration": 16
+  },
+  {
+    "title": "C_92 Solved Problem on Functions in C | GATE Question with Answer",
+    "youtubeId": "x_G-3x1x9JI",
+    "duration": 9
+  },
+  {
+    "title": "C_93 Solved problem on Functions in C GATE Question with Answer",
+    "youtubeId": "l0qlS5C08L0",
+    "duration": 9
+  },
+  {
+    "title": "C_94 Solved Problem on Functions in C |Gate Question with Answer",
+    "youtubeId": "wNiF3uwQNkA",
+    "duration": 9
+  },
+  {
+    "title": "C_95 Solved Problem on Functions in C | GATE question with answer",
+    "youtubeId": "yr2bPcDaxVg",
+    "duration": 6
+  },
+  {
+    "title": "C_96 Passing Array as an Argument to a Function in C | C Language Tutorials",
+    "youtubeId": "2aScqfAI3oc",
+    "duration": 28
+  },
+  {
+    "title": "C_97 Passing String as an Argument to a Function | C Language Tutorials",
+    "youtubeId": "gW2xHKk1cBA",
+    "duration": 24
+  },
+  {
+    "title": "C_98 Return a String from a Function in C | C Language Tutorials",
+    "youtubeId": "JNdbsF-78uk",
+    "duration": 29
+  },
+  {
+    "title": "C_99 Returning Pointer from Function in C | C Language Tutorials",
+    "youtubeId": "RrqH9NFyprw",
+    "duration": 17
+  },
+  {
+    "title": "C_100 Solved Problem on Functions in C | GATE Question with Answer",
+    "youtubeId": "j3Gb19nSWnU",
+    "duration": 7
+  },
+  {
+    "title": "C_101 Function Pointers in C | Pointer to Function | C Programming Tutorials",
+    "youtubeId": "qaszuaFXRTA",
+    "duration": 18
+  },
+  {
+    "title": "C_102 Callback Function using Function Pointer in C | C Language Tutorials",
+    "youtubeId": "wMI2k951nqs",
+    "duration": 15
+  },
+  {
+    "title": "C_103 Application of Function Pointer in C | Array of Function Pointer",
+    "youtubeId": "ccoKzyaO0jI",
+    "duration": 17
+  },
+  {
+    "title": "C_104 Recursion in C | Introduction to Recursion",
+    "youtubeId": "KQZIBckWK-s",
+    "duration": 19
+  },
+  {
+    "title": "C_105 Recursion in C - part 2 | Problem on Recursion",
+    "youtubeId": "y9fkXBNhPh4",
+    "duration": 10
+  },
+  {
+    "title": "C-106 Types of Recursion-part 1 | Direct and Indirect Recursion",
+    "youtubeId": "fNl1McayZyY",
+    "duration": 13
+  },
+  {
+    "title": "C_107 Types of Recursion-part 2 | Tail and Non-Tail Recursion",
+    "youtubeId": "8xJdlvAimOs",
+    "duration": 19
+  },
+  {
+    "title": "C_108 Recursion Solved Problem (GATE 2016 Question) | C Programming Tutorials",
+    "youtubeId": "Qwqae2m2vgU",
+    "duration": 9
+  },
+  {
+    "title": "C_109 Structures in C - part 1| Introduction to Structures | C Programming",
+    "youtubeId": "LpHnHRI6gLc",
+    "duration": 13
+  },
+  {
+    "title": "C_110 Structures in C-part 2 | Declaring Structure Variables/Objects",
+    "youtubeId": "6Z-silgul48",
+    "duration": 10
+  },
+  {
+    "title": "C_111 Structures in C-part 3 | Initializing & Accessing of Structure Members",
+    "youtubeId": "OxkTCgGIWxk",
+    "duration": 25
+  },
+  {
+    "title": "C_112 Array of Structures in C | C Language Tutorials",
+    "youtubeId": "azgYvTZD3eo",
+    "duration": 12
+  },
+  {
+    "title": "C_113 Pointer to Structure in C | Structure Pointer | C Language Tutorials",
+    "youtubeId": "f0Uw1x8albM",
+    "duration": 14
+  },
+  {
+    "title": "C_114 Unions in C | C Language Tutorials",
+    "youtubeId": "7lsqAXmBTGE",
+    "duration": 17
+  },
+  {
+    "title": "C_115 Structures in C using typedef | C Language Tutorials",
+    "youtubeId": "ojhbmh5SJsw",
+    "duration": 11
+  },
+  {
+    "title": "C_116 Structure Padding in C | C Language Tutorials",
+    "youtubeId": "LZYgXaMeor0",
+    "duration": 18
+  },
+  {
+    "title": "C_117 Structure Packing in C | C Language Tutorials",
+    "youtubeId": "5nmGmYsOzgY",
+    "duration": 11
+  },
+  {
+    "title": "C_118 Problems on Structures in C | Designated Initialization in Structures",
+    "youtubeId": "4evAXXnHrOw",
+    "duration": 6
+  },
+  {
+    "title": "C_119 File Handling in C - part 1 | Introduction to Files",
+    "youtubeId": "ZIe_j8xAkU4",
+    "duration": 12
+  },
+  {
+    "title": "C_120 File Handling in C - part 2 | File Pointer and fopen() function",
+    "youtubeId": "UmeGlPw8cxI",
+    "duration": 17
+  },
+  {
+    "title": "C_121 File Handling in C - part 3 | Writing in a File in C Language",
+    "youtubeId": "HHJpXRyNh-k",
+    "duration": 26
+  },
+  {
+    "title": "C_122 File Handling in C - part 4 | Read From File in C | C Programming Language",
+    "youtubeId": "YYLpsfe9LQ4",
+    "duration": 24
+  },
+  {
+    "title": "C_123 Append Mode in File Handling | C Programming Language",
+    "youtubeId": "IriDVVG-Az4",
+    "duration": 13
+  },
+  {
+    "title": "C_124 r+ Mode in File Handling | C Programming Language",
+    "youtubeId": "l_PqljNFBw8",
+    "duration": 13
+  },
+  {
+    "title": "C_125 w+ mode in File handling | C programming Tutorials",
+    "youtubeId": "LIbENy2Bo8Y",
+    "duration": 16
+  },
+  {
+    "title": "C_126 a+ mode in File Handling | C Programming Tutorials",
+    "youtubeId": "T-UKH3gMSz0",
+    "duration": 12
+  },
+  {
+    "title": "C_127 fseek() function in File Handling | C Language tutorials",
+    "youtubeId": "5I6MZROOJXw",
+    "duration": 20
+  },
+  {
+    "title": "C_128 ftell () function in File Handling | C Programming Language",
+    "youtubeId": "DHy59_kI0CI",
+    "duration": 17
+  },
+  {
+    "title": "C_129 rewind() function in File Handling| C Programming Tutorials",
+    "youtubeId": "X49hHg96tkg",
+    "duration": 12
+  },
+  {
+    "title": "C_130 C Program to Count no of Lines in a Text File | File Handling in C",
+    "youtubeId": "rp-nVdC6uEg",
+    "duration": 16
+  },
+  {
+    "title": "C_131 C program to copy content of one file into another file | File Handling in C",
+    "youtubeId": "WjUPmLZSsO0",
+    "duration": 14
+  },
+  {
+    "title": "C_132 Introduction to Dynamic Memory Allocation in C  | SMA vs DMA",
+    "youtubeId": "LQXueqsbxRU",
+    "duration": 18
+  },
+  {
+    "title": "C_133 Dynamic Memory Allocation using malloc() | C Language Tutorials",
+    "youtubeId": "y4EzSnHJj-Q",
+    "duration": 24
+  },
+  {
+    "title": "C_134 Dynamic Memory Allocation using calloc() | C Language Tutorials",
+    "youtubeId": "U2MqRhKzOgg",
+    "duration": 14
+  },
+  {
+    "title": "C_135 Dynamic Memory Allocation using realloc() | C Language Tutorials",
+    "youtubeId": "ZThwHgNTHUs",
+    "duration": 18
+  },
+  {
+    "title": "C_136 Deallocating the Dynamically Allocated Memory using free() | C Programming Tutorials",
+    "youtubeId": "zHHhcdRzLcc",
+    "duration": 19
+  },
+  {
+    "title": "C_137 Memory Leak in C | C Programming Language",
+    "youtubeId": "Ar8vS_QpiMw",
+    "duration": 19
+  },
+  {
+    "title": "C_138 Enumeration in C | enum data type in C Language",
+    "youtubeId": "nSg4_IUmt-k",
+    "duration": 20
+  },
+  {
+    "title": "C_139 Enum in C | Technical Interview Questions and Answers",
+    "youtubeId": "L1yWxYGWodw",
+    "duration": 7
+  },
+  {
+    "title": "C_140 Storage Classes in C | C Language tutorials",
+    "youtubeId": "-cycQu5Pz7o",
+    "duration": 21
+  },
+  {
+    "title": "C_141 Types of Storage Classes in C - part 1 | auto storage class",
+    "youtubeId": "T7LRfn0YI8Y",
+    "duration": 13
+  },
+  {
+    "title": "C_142 Types of Storage Classes in C - part 2 | register storage class",
+    "youtubeId": "b1z3FJ6VJew",
+    "duration": 16
+  },
+  {
+    "title": "C_143 Types of Storage Classes in C - part3 | Static Storage Class",
+    "youtubeId": "sqn9jt-emN4",
+    "duration": 17
+  },
+  {
+    "title": "Types of Storage Classes in C - part 4 | extern storage class | Lecture 144 | C Programming Course",
+    "youtubeId": "wDmUBokWGgA",
+    "duration": 22
+  },
+  {
+    "title": "C_145 Solved Problems on Storage Classes in C | Technical Interview Question",
+    "youtubeId": "Gd9GBBiX_98",
+    "duration": 9
+  },
+  {
+    "title": "C_146 Introduction to Pre-processor in C| Preprocessor Directive  #include | C Programming Tutorials",
+    "youtubeId": "pw0uGPmGNl8",
+    "duration": 12
+  },
+  {
+    "title": "C_147 Storage Classes | Gate Question on Storage Classes in C",
+    "youtubeId": "sF9Fb7Bi0MY",
+    "duration": 11
+  },
+  {
+    "title": "C_148 Macro in C | Preprocessor command #define and #undef  in C | C Programming Tutorials",
+    "youtubeId": "InxAy7eI_OE",
+    "duration": 22
+  },
+  {
+    "title": "C_149 Predefined Macros in C | Conditional Pre-processor Commands | C Programming Tutorials",
+    "youtubeId": "ReBv6sBk8cI",
+    "duration": 9
+  },
+  {
+    "title": "Good News 🙈😃 | Completed C Programming Course",
+    "youtubeId": "6lh7jtb5wgA",
+    "duration": 3
+  }
+]

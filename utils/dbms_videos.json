@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Introduction to DBMS Placements Course 2022",
+    "youtubeId": "eYpXCdvKwEQ",
+    "duration": 10
+  },
+  {
+    "title": "Lecture 1: What the heck is Database Management System (DBMS)?",
+    "youtubeId": "TYo_CUnIWP8",
+    "duration": 45
+  },
+  {
+    "title": "Lecture 2: DBMS Architecture || Role of DBA",
+    "youtubeId": "mYI2nopkQJE",
+    "duration": 73
+  },
+  {
+    "title": "Lecture 3: ER Model Explained || ER Diagram Notations || DBMS for Placements",
+    "youtubeId": "kMHJhhIx5k4",
+    "duration": 55
+  },
+  {
+    "title": "Lecture 4: Extended ER Features || Abstraction in ER Model",
+    "youtubeId": "8_dMPX6_qiY",
+    "duration": 31
+  },
+  {
+    "title": "Lecture 5: How to think and formulate an ER Diagram || Banking System ER Model",
+    "youtubeId": "w-VfTUvxETQ",
+    "duration": 27
+  },
+  {
+    "title": "Lecture 6: Designing the ER Model of FACEBOOK Database || DBMS for Placements",
+    "youtubeId": "sQ1AcVYP18c",
+    "duration": 20
+  },
+  {
+    "title": "Lecture 7: Relational Model Explained || DBMS for Placements",
+    "youtubeId": "kUk8PgORTzo",
+    "duration": 56
+  },
+  {
+    "title": "Lecture 8: Transform ER Model to Relational Model || ER-Diagram to Tables",
+    "youtubeId": "_xHl2gpoXqI",
+    "duration": 34
+  },
+  {
+    "title": "Lecture 9: Complete SQL in 1 VIDEO",
+    "youtubeId": "D_wNQR3LeeM",
+    "duration": 232
+  },
+  {
+    "title": "Lecture 10: Common SQL Queries for Interviews",
+    "youtubeId": "vIq9zkpGWc8",
+    "duration": 78
+  },
+  {
+    "title": "Lecture 11: Why We Need Normalisation ? || DBMS Series for Placements",
+    "youtubeId": "nweGaymEwGM",
+    "duration": 58
+  },
+  {
+    "title": "Lecture 12: ACID Properties && Transactions in DBMS",
+    "youtubeId": "sS4gadQw5iM",
+    "duration": 37
+  },
+  {
+    "title": "Lecture 13: How to Implement Atomicity and Durability? || DBMS Interview question",
+    "youtubeId": "iNAaZNC7prE",
+    "duration": 32
+  },
+  {
+    "title": "Lecture 14: Why Indexing is important in Database Systems || DBMS Interview question",
+    "youtubeId": "Fr-0rNhIECw",
+    "duration": 48
+  },
+  {
+    "title": "Lecture 15: What are NoSQL Databases || SQL vs NoSQL",
+    "youtubeId": "hl65apHxp64",
+    "duration": 66
+  },
+  {
+    "title": "Lecture 16: Types of Databases || DBMS for Placements",
+    "youtubeId": "ItjrKq7c-h4",
+    "duration": 35
+  },
+  {
+    "title": "Lecture 17: What is Clustering / Replication in DBMS || DBMS for Placements",
+    "youtubeId": "Xt3HWe8W67Q",
+    "duration": 16
+  },
+  {
+    "title": "Lecture 18: What is Partitioning and Sharding in DBMS || DB Optimisation",
+    "youtubeId": "TlIX427wKDg",
+    "duration": 31
+  },
+  {
+    "title": "Lecture 19: Database Scaling Patterns | How to perform step by step scaling",
+    "youtubeId": "SOrhyETsz6w",
+    "duration": 61
+  },
+  {
+    "title": "Lecture 20: CAP Theorem in DBMS || DBMS for Placements 2022",
+    "youtubeId": "EIl02n-FxTg",
+    "duration": 23
+  },
+  {
+    "title": "Last Lecture: Master-Slave Architecture || DBMS for Placements",
+    "youtubeId": "_RS78xr2Dc4",
+    "duration": 24
+  }
+]

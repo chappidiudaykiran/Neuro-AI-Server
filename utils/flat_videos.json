@@ -1,0 +1,787 @@
+[
+  {
+    "title": "Syllabus of TOC(Theory of Computation) for GATE | GATE 2023",
+    "youtubeId": "1PD2EA3jPIs",
+    "duration": 10
+  },
+  {
+    "title": "How to prepare TOC from my playlist efficiently for gate 2023 | How to get full marks in TOC",
+    "youtubeId": "5Hp0jrSkbGE",
+    "duration": 20
+  },
+  {
+    "title": "1. INTRODUCTION TO TOC",
+    "youtubeId": "a6Pc1fcGsec",
+    "duration": 25
+  },
+  {
+    "title": "2. basic terms in TOC",
+    "youtubeId": "bG7yCEmvH4U",
+    "duration": 60
+  },
+  {
+    "title": "3. operations on strings part 1",
+    "youtubeId": "kzEwz9ZCqHY",
+    "duration": 74
+  },
+  {
+    "title": "4. operations on strings part 2",
+    "youtubeId": "2sC2pItyqew",
+    "duration": 47
+  },
+  {
+    "title": "5. syllabus of chapter 1 (FA and regular languages)",
+    "youtubeId": "2rpjpuLmTvY",
+    "duration": 18
+  },
+  {
+    "title": "6. introduction to FA (part 1)",
+    "youtubeId": "PbwaU8q_p-Q",
+    "duration": 58
+  },
+  {
+    "title": "7. introduction to FA part 2",
+    "youtubeId": "9YzLBWGyZmw",
+    "duration": 73
+  },
+  {
+    "title": "8. practice questions on recognizing language accepted by FA",
+    "youtubeId": "rxOiumXkrXs",
+    "duration": 65
+  },
+  {
+    "title": "9. construction of fa",
+    "youtubeId": "o9o2OYGDnsQ",
+    "duration": 91
+  },
+  {
+    "title": "10. construction of fa part 2",
+    "youtubeId": "HNEI1LxlXb4",
+    "duration": 82
+  },
+  {
+    "title": "11. construction of fa part 3",
+    "youtubeId": "63oDkDb0-64",
+    "duration": 13
+  },
+  {
+    "title": "12. construction of fa (part 4)",
+    "youtubeId": "xTOaAo4xkDQ",
+    "duration": 76
+  },
+  {
+    "title": "13. construction of fa part 5",
+    "youtubeId": "JTkaytBdkKg",
+    "duration": 64
+  },
+  {
+    "title": "14. construction of fa part 6",
+    "youtubeId": "yVKMfhgwEi8",
+    "duration": 85
+  },
+  {
+    "title": "15. construction of fa part 7",
+    "youtubeId": "6PWBSo4mVr8",
+    "duration": 78
+  },
+  {
+    "title": "16. construction of fa part 8",
+    "youtubeId": "sN50UPkUbTs",
+    "duration": 34
+  },
+  {
+    "title": "17. nfa to dfa conversion",
+    "youtubeId": "Spm3cmV-_6Y",
+    "duration": 53
+  },
+  {
+    "title": "18. minimization of states of dfa",
+    "youtubeId": "zZ6mfBXVCKE",
+    "duration": 44
+  },
+  {
+    "title": "19. NFA WITH NULL MOVES PART 1",
+    "youtubeId": "uer2025vEj8",
+    "duration": 79
+  },
+  {
+    "title": "20. NFA WITH NULL MOVES PART 2",
+    "youtubeId": "ycIPfmlKar4",
+    "duration": 38
+  },
+  {
+    "title": "21. NFA WITH NULL MOVES PART 3",
+    "youtubeId": "V2Pcxyw1ZJk",
+    "duration": 44
+  },
+  {
+    "title": "22. moore machine",
+    "youtubeId": "92obD6F2wKs",
+    "duration": 63
+  },
+  {
+    "title": "23. mealy machine",
+    "youtubeId": "ie5biMuUU9w",
+    "duration": 47
+  },
+  {
+    "title": "24. mealy to Moore conversion",
+    "youtubeId": "tvbJVg-3mjE",
+    "duration": 54
+  },
+  {
+    "title": "25. moore to mealy conversion",
+    "youtubeId": "rgAHCEvHjm4",
+    "duration": 29
+  },
+  {
+    "title": "26. GRAMMARS",
+    "youtubeId": "INlV1tu92FQ",
+    "duration": 58
+  },
+  {
+    "title": "27. chomsky hierarchy part1",
+    "youtubeId": "p-07R6QaXbI",
+    "duration": 58
+  },
+  {
+    "title": "28. chomsky hierarchy part2",
+    "youtubeId": "6LBQhMdQ868",
+    "duration": 43
+  },
+  {
+    "title": "29. CONSTRUCTION OF REGULAR GRAMMARS (PART 1)",
+    "youtubeId": "uArX4J30xLk",
+    "duration": 60
+  },
+  {
+    "title": "30. CONSTRUCTION OF REGULAR GRAMMARS (PART 2)",
+    "youtubeId": "2nPZsqX9X1k",
+    "duration": 62
+  },
+  {
+    "title": "31. construction of regular grammar part 3",
+    "youtubeId": "_OWTYcJTC_Y",
+    "duration": 50
+  },
+  {
+    "title": "32. equivalence of regular grammars and finite automata",
+    "youtubeId": "YkrznM6w_4o",
+    "duration": 23
+  },
+  {
+    "title": "33. checking language is regular or not",
+    "youtubeId": "HeufXUYoVFY",
+    "duration": 67
+  },
+  {
+    "title": "34. construction of context free grammar part 1",
+    "youtubeId": "8Wq13J4k63Q",
+    "duration": 100
+  },
+  {
+    "title": "35. construction of context free grammar part 2",
+    "youtubeId": "eI47XjPN6Po",
+    "duration": 69
+  },
+  {
+    "title": "36. construction of context free grammar part 3",
+    "youtubeId": "kj2wRO8UXUE",
+    "duration": 73
+  },
+  {
+    "title": "37. construction of context free grammar part 4",
+    "youtubeId": "3y_QYhffhqA",
+    "duration": 76
+  },
+  {
+    "title": "38. construction of context free grammar part 5",
+    "youtubeId": "W94vVEcfrWg",
+    "duration": 67
+  },
+  {
+    "title": "39. exceptional questions on regular languages part 1",
+    "youtubeId": "DbGkFs0XYho",
+    "duration": 58
+  },
+  {
+    "title": "40. exceptional questions on regular languages part 2",
+    "youtubeId": "ALXfV15YJ30",
+    "duration": 49
+  },
+  {
+    "title": "41. exceptional questions on regular languages part 3",
+    "youtubeId": "S2Z3HtYs4TE",
+    "duration": 84
+  },
+  {
+    "title": "42. construction of context sensitive grammars",
+    "youtubeId": "AHuQguDtYjI",
+    "duration": 35
+  },
+  {
+    "title": "43. identifying the type of language",
+    "youtubeId": "ZeiR6_2imUE",
+    "duration": 60
+  },
+  {
+    "title": "44. identifying the type of language part 2",
+    "youtubeId": "pDZJSg5I4wY",
+    "duration": 55
+  },
+  {
+    "title": "45. closure properties of regular languages",
+    "youtubeId": "pG9_4Ef_nRg",
+    "duration": 77
+  },
+  {
+    "title": "46. closure properties of CFL and CSL",
+    "youtubeId": "ApgUdBeoh-A",
+    "duration": 71
+  },
+  {
+    "title": "47. introduction to RE and REC languages",
+    "youtubeId": "vm83G6IjNVM",
+    "duration": 72
+  },
+  {
+    "title": "48. closure properties of RE and REC languages",
+    "youtubeId": "SOWcwDqKUKo",
+    "duration": 73
+  },
+  {
+    "title": "49. practice questions on closure properties",
+    "youtubeId": "vZjvHpdE7S8",
+    "duration": 58
+  },
+  {
+    "title": "50. practice questions on closure properties part 2",
+    "youtubeId": "LZcnrWhaILk",
+    "duration": 83
+  },
+  {
+    "title": "practice questions on closure properties part 3",
+    "youtubeId": "1ZZgmB0Kh7Y",
+    "duration": 58
+  },
+  {
+    "title": "regular expression part 1",
+    "youtubeId": "_aeS1sttaT8",
+    "duration": 65
+  },
+  {
+    "title": "regular expression part 2",
+    "youtubeId": "9GsMCae8Ax0",
+    "duration": 57
+  },
+  {
+    "title": "regular expression part 3",
+    "youtubeId": "acJWphB87Rk",
+    "duration": 67
+  },
+  {
+    "title": "regular expression part 4",
+    "youtubeId": "fsvvrLgcUjI",
+    "duration": 65
+  },
+  {
+    "title": "regular expression part 5",
+    "youtubeId": "Z2ouLia-p_M",
+    "duration": 56
+  },
+  {
+    "title": "arden's theorem",
+    "youtubeId": "IuWBplXsyJk",
+    "duration": 65
+  },
+  {
+    "title": "Arden's theorem part 2",
+    "youtubeId": "1ZQEu1CUbqc",
+    "duration": 39
+  },
+  {
+    "title": "SHORTCUT TO CONVERT FA TO RE PART 1",
+    "youtubeId": "0f1U8jP07Ks",
+    "duration": 57
+  },
+  {
+    "title": "SHORTCUT TO CONVERT FA TO RE PART 2",
+    "youtubeId": "EBKv_b3DGnE",
+    "duration": 39
+  },
+  {
+    "title": "conversion of RE to FA",
+    "youtubeId": "qS9V6LFrb4w",
+    "duration": 49
+  },
+  {
+    "title": "PUMPING LEMMA PART 1",
+    "youtubeId": "O1vnwTfFzOs",
+    "duration": 45
+  },
+  {
+    "title": "PUMPING LEMMA PART 2",
+    "youtubeId": "mDeR95qWOQA",
+    "duration": 67
+  },
+  {
+    "title": "pumping lemma part 3",
+    "youtubeId": "wwM5DkrcBi4",
+    "duration": 52
+  },
+  {
+    "title": "PUMPING LEMMA PART 4",
+    "youtubeId": "Zsr-E0tvhAE",
+    "duration": 54
+  },
+  {
+    "title": "pumping length",
+    "youtubeId": "Jb_sjsA3Qi4",
+    "duration": 72
+  },
+  {
+    "title": "pumping length part 2",
+    "youtubeId": "C0MBNRdWVrI",
+    "duration": 55
+  },
+  {
+    "title": "COUNTING DFA AND NFA",
+    "youtubeId": "VLB7xJE8fQ4",
+    "duration": 68
+  },
+  {
+    "title": "MY HILL NERODE THEOREM",
+    "youtubeId": "n8JkqIujerQ",
+    "duration": 58
+  },
+  {
+    "title": "SYLLABUS OF CHAPTER 2 (CFL AND PDA )",
+    "youtubeId": "c8b-8m4fHl8",
+    "duration": 15
+  },
+  {
+    "title": "Ambiguity in CFG part 1",
+    "youtubeId": "1PbzRAD23JE",
+    "duration": 64
+  },
+  {
+    "title": "ambiguity in cfg part 2",
+    "youtubeId": "qv2zNJwe8Xs",
+    "duration": 68
+  },
+  {
+    "title": "reduction of grammar part 1",
+    "youtubeId": "ieSbeJh9Xcc",
+    "duration": 55
+  },
+  {
+    "title": "reduction of grammar part 2",
+    "youtubeId": "gFXMba9lRxE",
+    "duration": 67
+  },
+  {
+    "title": "Normal Forms(CNF AND GNF) PART 1",
+    "youtubeId": "xPavBylnuLE",
+    "duration": 57
+  },
+  {
+    "title": "normal forms (CNF AND GNF) PART 2",
+    "youtubeId": "fkAhunaSVd8",
+    "duration": 55
+  },
+  {
+    "title": "normal forms (CNF AND GNF) PART 3",
+    "youtubeId": "cAF1GrB1nMI",
+    "duration": 55
+  },
+  {
+    "title": "normal forms (CNF AND GNF) PART 4",
+    "youtubeId": "jZO3b5MO46w",
+    "duration": 45
+  },
+  {
+    "title": "PDA PART 1",
+    "youtubeId": "TXmXln_xBkA",
+    "duration": 82
+  },
+  {
+    "title": "PDA part 2",
+    "youtubeId": "2Ryoro3lPY0",
+    "duration": 58
+  },
+  {
+    "title": "PDA part 3",
+    "youtubeId": "rDwjnwU5Z2o",
+    "duration": 68
+  },
+  {
+    "title": "PDA part 4",
+    "youtubeId": "T_slobAKHsA",
+    "duration": 107
+  },
+  {
+    "title": "PDA part 5",
+    "youtubeId": "Vc6XtI51Zx4",
+    "duration": 75
+  },
+  {
+    "title": "PDA part 6",
+    "youtubeId": "NRZhrcy9z98",
+    "duration": 44
+  },
+  {
+    "title": "PDA part 7",
+    "youtubeId": "fOzfKKjE7Vo",
+    "duration": 50
+  },
+  {
+    "title": "PDA part 8",
+    "youtubeId": "xkvAPTbc3sE",
+    "duration": 59
+  },
+  {
+    "title": "PDA part 9",
+    "youtubeId": "1NU-Zw6IlIE",
+    "duration": 52
+  },
+  {
+    "title": "PDA part 10",
+    "youtubeId": "NxY3RvVxoa8",
+    "duration": 76
+  },
+  {
+    "title": "Identifying DCFL part 1",
+    "youtubeId": "XdC9L0vvNLI",
+    "duration": 57
+  },
+  {
+    "title": "Identifying DCFL part 2",
+    "youtubeId": "ZDKEOIZ9udU",
+    "duration": 67
+  },
+  {
+    "title": "closure properties of DCFL",
+    "youtubeId": "ZiQugNlv1bM",
+    "duration": 39
+  },
+  {
+    "title": "Additional closure properties",
+    "youtubeId": "0K2QFo5FBhw",
+    "duration": 63
+  },
+  {
+    "title": "Additional closure properties part 2",
+    "youtubeId": "HBY4OOL1S_Q",
+    "duration": 69
+  },
+  {
+    "title": "pumping lemma for CFL",
+    "youtubeId": "zYHqT_K1SwE",
+    "duration": 27
+  },
+  {
+    "title": "syllabus of chapter 3 (TM and undecidability)",
+    "youtubeId": "5Pf25r7cD4k",
+    "duration": 22
+  },
+  {
+    "title": "TURING MACHINE INTRODUCTION",
+    "youtubeId": "YNeQi8_14H0",
+    "duration": 36
+  },
+  {
+    "title": "CONSTRUCTION OF TURING MACHINE",
+    "youtubeId": "5atXFY9K2UA",
+    "duration": 61
+  },
+  {
+    "title": "CONSTRUCTION OF TURING MACHINE 2",
+    "youtubeId": "k7mAytiJWoY",
+    "duration": 47
+  },
+  {
+    "title": "CONSTRUCTION OF TURING MACHINE 3",
+    "youtubeId": "xaqefFEq1lM",
+    "duration": 54
+  },
+  {
+    "title": "CONSTRUCTION OF TURING MACHINE 4",
+    "youtubeId": "p4vUI03qfi8",
+    "duration": 47
+  },
+  {
+    "title": "church turing thesis",
+    "youtubeId": "leu0uPN6VYY",
+    "duration": 40
+  },
+  {
+    "title": "variations of turing machine",
+    "youtubeId": "bMTW-VqeXYc",
+    "duration": 50
+  },
+  {
+    "title": "variation of turing machine part 2",
+    "youtubeId": "MlCPC3eZ3Oo",
+    "duration": 39
+  },
+  {
+    "title": "variation of turing machine 3",
+    "youtubeId": "Qa3K67rI_pg",
+    "duration": 23
+  },
+  {
+    "title": "What is LBA(Linear Bounded Automata) | All Points Covered",
+    "youtubeId": "77YxaNDD6BE",
+    "duration": 21
+  },
+  {
+    "title": "VARIATIONS OF  FINITE AUTOMATA",
+    "youtubeId": "mr0lIIufLvQ",
+    "duration": 15
+  },
+  {
+    "title": "RE AND REC LANGUAGES",
+    "youtubeId": "fcAMXPIck2Q",
+    "duration": 38
+  },
+  {
+    "title": "properties of RE AND REC LANGUAGES",
+    "youtubeId": "ZJh3syfmDgg",
+    "duration": 61
+  },
+  {
+    "title": "COUNTABLE AND UNCOUNTABLE SETS PART 1",
+    "youtubeId": "5oE4p65smhQ",
+    "duration": 62
+  },
+  {
+    "title": "COUNTABLE AND UNCOUNTABLE SETS PART 2",
+    "youtubeId": "fGhKMeXTuNU",
+    "duration": 68
+  },
+  {
+    "title": "COUNTABLE AND UNCOUNTABLE SETS PART 3",
+    "youtubeId": "-k6PZEeMGU0",
+    "duration": 48
+  },
+  {
+    "title": "COUNTABLE AND UNCOUNTABLE SETS PART 4",
+    "youtubeId": "-nLoumszoug",
+    "duration": 55
+  },
+  {
+    "title": "GATE 1989 TO 1992 QUESTIONS OF TOC",
+    "youtubeId": "wItVahGiUlc",
+    "duration": 18
+  },
+  {
+    "title": "GATE 1994 QUESTIONS ON TOC",
+    "youtubeId": "FdHZ0VF8D3k",
+    "duration": 65
+  },
+  {
+    "title": "GATE 1995 AND 1996 QUESTIONS OF TOC",
+    "youtubeId": "Jlo5K5Gbn0Q",
+    "duration": 15
+  },
+  {
+    "title": "GATE 1996 TO 2000 QUESTIONS OF TOC",
+    "youtubeId": "s2oYjqX9h0s",
+    "duration": 51
+  },
+  {
+    "title": "GATE 2000 TO 2002 QUESTIONS ON TOC",
+    "youtubeId": "Kv__r1IleIs",
+    "duration": 43
+  },
+  {
+    "title": "GATE 2002 TO 2005 QUESTIONS ON TOC",
+    "youtubeId": "Uws23VgNUpQ",
+    "duration": 47
+  },
+  {
+    "title": "GATE 2005 TO 2006 QUESTIONS ON TOC",
+    "youtubeId": "3aOJg2Dw0X0",
+    "duration": 53
+  },
+  {
+    "title": "GATE 2006 TO 2007 QUESTIONS ON TOC",
+    "youtubeId": "Nj8BuQZilug",
+    "duration": 72
+  },
+  {
+    "title": "GATE 2007 TO 2008 QUESTIONS ON TOC",
+    "youtubeId": "XbIDeFtgUIY",
+    "duration": 71
+  },
+  {
+    "title": "GATE 2008 TO 2011 QUESTIONS ON TOC",
+    "youtubeId": "HGLyjtr379s",
+    "duration": 67
+  },
+  {
+    "title": "GATE 2011 TO 2012 QUESTIONS ON TOC",
+    "youtubeId": "rxGzh-6o7xw",
+    "duration": 26
+  },
+  {
+    "title": "GATE 2012 QUESTION ON TOC",
+    "youtubeId": "tSBGY2VSWZo",
+    "duration": 40
+  },
+  {
+    "title": "GATE 2012 TO 2014 QUESTION ON TOC",
+    "youtubeId": "n4aNRBIGYXs",
+    "duration": 30
+  },
+  {
+    "title": "GATE 2014 QUESTION ON TOC",
+    "youtubeId": "7BE1Z0-sfVk",
+    "duration": 50
+  },
+  {
+    "title": "GATE 2016 TO 2018 QUESTIONS ON TOC",
+    "youtubeId": "1XbQBMk44jM",
+    "duration": 65
+  },
+  {
+    "title": "GATE 2018 TO 2019 QUESTIONS ON TOC",
+    "youtubeId": "bMdLHvxrEaQ",
+    "duration": 28
+  },
+  {
+    "title": "GATE 2019 QUESTION ON TOC",
+    "youtubeId": "jW2QYiL-4NA",
+    "duration": 65
+  },
+  {
+    "title": "GATE 2019 TOC Question Linked with Discrete Maths | Easiest Explanation",
+    "youtubeId": "8Gm8vs_yBVQ",
+    "duration": 36
+  },
+  {
+    "title": "GATE 1987 TO 2001 QUESTIONS ON TOC",
+    "youtubeId": "1TFMxqa-sYw",
+    "duration": 47
+  },
+  {
+    "title": "GATE 2001 TO 2005 QUESTIONS ON TOC",
+    "youtubeId": "u7n4YDS6PeA",
+    "duration": 71
+  },
+  {
+    "title": "GATE 2005 TO 2007 QUESTIONS ON TOC",
+    "youtubeId": "h-23wFcOe8U",
+    "duration": 62
+  },
+  {
+    "title": "GATE 2007 TO 2009 QUESTIONS ON TOC",
+    "youtubeId": "bOcjro146s4",
+    "duration": 65
+  },
+  {
+    "title": "GATE 2009 TO 2016 QUESTIONS ON TOC",
+    "youtubeId": "qDyc4UDXdgA",
+    "duration": 43
+  },
+  {
+    "title": "GATE 2015 TO 2016 QUESTIONS ON TOC",
+    "youtubeId": "0RtW7n76AWk",
+    "duration": 35
+  },
+  {
+    "title": "GATE 2017 TO 2019 QUESTIONS ON TOC",
+    "youtubeId": "686p2ybBSjg",
+    "duration": 25
+  },
+  {
+    "title": "GATE 2018 TO 2019 QUESTIONS ON TOC",
+    "youtubeId": "oC7-589984I",
+    "duration": 28
+  },
+  {
+    "title": "Non-RE Language: Diagnolization language",
+    "youtubeId": "7rEj6Xusno4",
+    "duration": 52
+  },
+  {
+    "title": "Non-RE Language: Diagnolization language",
+    "youtubeId": "clgFQCJJA-c",
+    "duration": 45
+  },
+  {
+    "title": "Problems | Instance of problem | Types of problems | Decision problems",
+    "youtubeId": "F4baayqDzgQ",
+    "duration": 35
+  },
+  {
+    "title": "Membership problem and its compliment",
+    "youtubeId": "BhbFFBOh200",
+    "duration": 45
+  },
+  {
+    "title": "Finiteness Problem |  Emptiness problem | completeness | equality | disjointness",
+    "youtubeId": "OPq-kPQJCyA",
+    "duration": 55
+  },
+  {
+    "title": "Decision problems in TOC | regularity problem | subset | ambiguity | intersection | compliment",
+    "youtubeId": "cTTEmAu6Ha0",
+    "duration": 57
+  },
+  {
+    "title": "practice questions on decidability",
+    "youtubeId": "M6eRmEbCaTA",
+    "duration": 34
+  },
+  {
+    "title": "Halting problem | Halting problem in TOC | Proof of halting problem |",
+    "youtubeId": "4DkNzaLVL1s",
+    "duration": 59
+  },
+  {
+    "title": "Blank tape halting problem| state entry problem | PCP(Post's correspondence problem) | MPCP",
+    "youtubeId": "7S7nnpHUQsA",
+    "duration": 45
+  },
+  {
+    "title": "Reducibility: A Technique for Proving Undecidability | Reduction | Reduction theorem",
+    "youtubeId": "HBFQ_USxseg",
+    "duration": 56
+  },
+  {
+    "title": "Reducibility: A Technique for Proving Undecidability | Reduction | Reduction theorem",
+    "youtubeId": "KFnMcoxZHcY",
+    "duration": 60
+  },
+  {
+    "title": "practice questions on reducability",
+    "youtubeId": "02kFTEFe22k",
+    "duration": 22
+  },
+  {
+    "title": "Universal Turing Machine | UTM",
+    "youtubeId": "2HTPXNYxCDE",
+    "duration": 31
+  },
+  {
+    "title": "Rice's theorem",
+    "youtubeId": "dVZD7ht3BMc",
+    "duration": 51
+  },
+  {
+    "title": "rice's theorem",
+    "youtubeId": "XDKf65OqW98",
+    "duration": 36
+  },
+  {
+    "title": "rice's theorem",
+    "youtubeId": "Kgb-bmibfn0",
+    "duration": 124
+  },
+  {
+    "title": "TOC completed",
+    "youtubeId": "dCyQMCfOOgE",
+    "duration": 9
+  }
+]

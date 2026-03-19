@@ -9,6 +9,7 @@ const SubjectFeedbackSchema = new mongoose.Schema({
 	stressFelt: { type: Number, min: 1, max: 5 },
 	confidenceRating: { type: Number, min: 1, max: 5 },
 	enjoyedSubject: { type: Boolean },
+	feedbackText: { type: String },
 	watchMinutes: { type: Number, default: 0 },
 	completionPct: { type: Number, default: 0, min: 0, max: 100 },
 	attemptCount: { type: Number, default: 1 },

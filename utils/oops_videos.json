@@ -1,0 +1,187 @@
+[
+  {
+    "title": "Object Oriented Programming in C++ | C++ Tutorials for Beginners #20",
+    "youtubeId": "nGJTWaaFdjc",
+    "duration": 10
+  },
+  {
+    "title": "Classes, Public and Private access modifiers in C++ | C++ Tutorials for Beginners #21",
+    "youtubeId": "tL8vnfFFzVQ",
+    "duration": 16
+  },
+  {
+    "title": "OOPs Recap & Nesting of Member Functions in C++ | C++ Tutorials for Beginners #22",
+    "youtubeId": "d363dW0AeS8",
+    "duration": 29
+  },
+  {
+    "title": "C++ Objects Memory Allocation & using Arrays in Classes | C++ Tutorials for Beginners #23",
+    "youtubeId": "qq05D2yFIHA",
+    "duration": 20
+  },
+  {
+    "title": "Static Data Members & Methods in C++ OOPS | C++ Tutorials for Beginners #24",
+    "youtubeId": "QcLI2zGVYFo",
+    "duration": 18
+  },
+  {
+    "title": "Array of Objects & Passing Objects as Function Arguments in C++ | C++ Tutorials for Beginners #25",
+    "youtubeId": "aKnc1A5NOKo",
+    "duration": 16
+  },
+  {
+    "title": "Friend Functions in C++ | C++ Tutorials for Beginners #26",
+    "youtubeId": "HK6gnkQIgqI",
+    "duration": 20
+  },
+  {
+    "title": "Friend Classes & Member Friend Functions in C++ | C++ Tutorials for Beginners #27",
+    "youtubeId": "Tk-4KUoatg8",
+    "duration": 21
+  },
+  {
+    "title": "More on C++ Friend Functions (Examples & Explanation) | C++ Tutorials for Beginners #28",
+    "youtubeId": "GTJTsMR_fro",
+    "duration": 20
+  },
+  {
+    "title": "Constructors In C++ | C++ Tutorials for Beginners #29",
+    "youtubeId": "EEJUPXFKe8Q",
+    "duration": 19
+  },
+  {
+    "title": "Parameterized and Default Constructors In C++ | C++ Tutorials for Beginners #30",
+    "youtubeId": "CYXIlh5DURI",
+    "duration": 17
+  },
+  {
+    "title": "Constructor Overloading In C++ | C++ Tutorials for Beginners #31",
+    "youtubeId": "7BmtA-7r1Fg",
+    "duration": 7
+  },
+  {
+    "title": "Constructors With Default Arguments In C++ | C++ Tutorials for Beginners #32",
+    "youtubeId": "Ok-5YqcGl6c",
+    "duration": 8
+  },
+  {
+    "title": "Dynamic Initialization of Objects Using Constructors | C++ Tutorials for Beginners #33",
+    "youtubeId": "c_9oCs-9fvg",
+    "duration": 25
+  },
+  {
+    "title": "Copy Constructor in C++ | C++ Tutorials for Beginners #34",
+    "youtubeId": "jhZjyaNO4Wo",
+    "duration": 16
+  },
+  {
+    "title": "Destructor in C++ in Hindi | C++ Tutorials for Beginners #35",
+    "youtubeId": "rm4tGxWBkqs",
+    "duration": 14
+  },
+  {
+    "title": "Inheritance & Its Different Types with Examples in C++ | C++ Tutorials for Beginners #36",
+    "youtubeId": "RO1ZYW9NAzg",
+    "duration": 28
+  },
+  {
+    "title": "Inheritance Syntax & Visibility Mode in C++ | C++ Tutorials for Beginners #37",
+    "youtubeId": "Dmrc82dL7E8",
+    "duration": 20
+  },
+  {
+    "title": "Single Inheritance Deep Dive: Examples + Code | C++ Tutorials for Beginners #38",
+    "youtubeId": "S1BR0xDdsyM",
+    "duration": 24
+  },
+  {
+    "title": "Protected Access Modifier in C++ | C++ Tutorials for Beginners #39",
+    "youtubeId": "uHkIhwUspdI",
+    "duration": 14
+  },
+  {
+    "title": "Multilevel Inheritance Deep Dive with Code Example in C++ | C++ Tutorials for Beginners #40",
+    "youtubeId": "BLb6-ZgxqHg",
+    "duration": 28
+  },
+  {
+    "title": "Multiple Inheritance Deep Dive with Code Example in C++ | C++ Tutorials for Beginners #41",
+    "youtubeId": "h3INeRqf2vU",
+    "duration": 23
+  },
+  {
+    "title": "Ambiguity Resolution in Inheritance in C++ | C++ Tutorials for Beginners #43",
+    "youtubeId": "ZqfArYoV9Lg",
+    "duration": 15
+  },
+  {
+    "title": "Virtual Base Class in C++ | C++ Tutorials for Beginners #44",
+    "youtubeId": "kzMQpPX7TUY",
+    "duration": 14
+  },
+  {
+    "title": "Code Example Demonstrating Virtual Base Class in C++ | C++ Tutorials for Beginners #45",
+    "youtubeId": "eYV-TohBaa0",
+    "duration": 26
+  },
+  {
+    "title": "Constructors in Derived Class in C++ | C++ Tutorials for Beginners #46",
+    "youtubeId": "gvOO4H7j_qI",
+    "duration": 18
+  },
+  {
+    "title": "Code Example: Constructors in Derived Class in Cpp | C++ Tutorials for Beginners #48",
+    "youtubeId": "qHrnTf5DOeI",
+    "duration": 21
+  },
+  {
+    "title": "Initialization list in Constructors in Cpp | C++ Tutorials for Beginners #49",
+    "youtubeId": "-Re7K7mHtv4",
+    "duration": 15
+  },
+  {
+    "title": "Revisiting Pointers: new and delete Keywords in CPP | C++ Tutorials for Beginners #50",
+    "youtubeId": "2Y0b9nFA9s8",
+    "duration": 12
+  },
+  {
+    "title": "Pointers to Objects and Arrow Operator in CPP | C++ Tutorials for Beginners #51",
+    "youtubeId": "ANpUQgyRPKk",
+    "duration": 14
+  },
+  {
+    "title": "Array of Objects Using Pointers in C++ | C++ Tutorials for Beginners #52",
+    "youtubeId": "OCmCyYxSi2I",
+    "duration": 24
+  },
+  {
+    "title": "this Pointer in C++ | C++ Tutorials for Beginners #53",
+    "youtubeId": "cEOfK_L4gGA",
+    "duration": 11
+  },
+  {
+    "title": "Polymorphism in C++ | C++ Tutorials for Beginners #54",
+    "youtubeId": "B-WWdC-H0zw",
+    "duration": 21
+  },
+  {
+    "title": "Pointers to Derived Classes in C++ | C++ Tutorials for Beginners #55",
+    "youtubeId": "0YQ_yhX46uk",
+    "duration": 18
+  },
+  {
+    "title": "Virtual Functions in C++ | C++ Tutorials for Beginners #56",
+    "youtubeId": "fB3JHNnlRfI",
+    "duration": 11
+  },
+  {
+    "title": "Virtual Functions Example + Creation Rules in C++ | C++ Tutorials for Beginners #57",
+    "youtubeId": "-noYyWtdXSI",
+    "duration": 29
+  },
+  {
+    "title": "Abstract Base Class & Pure Virtual Functions in C++ | C++ Tutorials for Beginners #58",
+    "youtubeId": "RBAWWutf0fY",
+    "duration": 12
+  }
+]

@@ -1,0 +1,677 @@
+[
+  {
+    "title": "Introduction to Computer Networks",
+    "youtubeId": "VwN91x5i25g",
+    "duration": 10
+  },
+  {
+    "title": "Computer Networks - Basic Characteristics",
+    "youtubeId": "m8eNwVel5xI",
+    "duration": 9
+  },
+  {
+    "title": "Network Protocols & Communications (Part 1)",
+    "youtubeId": "ly8ikWtAY7s",
+    "duration": 12
+  },
+  {
+    "title": "Network Protocols & Communications (Part 2)",
+    "youtubeId": "iE_kY2LVBKA",
+    "duration": 11
+  },
+  {
+    "title": "Components of a Computer Network",
+    "youtubeId": "EBTP0mpCGBM",
+    "duration": 10
+  },
+  {
+    "title": "Classification of Computer Networks",
+    "youtubeId": "9BIN99rHOCQ",
+    "duration": 9
+  },
+  {
+    "title": "Network Topology",
+    "youtubeId": "uSKdjjw5zow",
+    "duration": 14
+  },
+  {
+    "title": "Network Topology (Solved Questions)",
+    "youtubeId": "qDN6oEUsUko",
+    "duration": 12
+  },
+  {
+    "title": "Basics of IP Addressing",
+    "youtubeId": "Kx6i9gwNS3w",
+    "duration": 8
+  },
+  {
+    "title": "Basics of MAC Addressing",
+    "youtubeId": "FkiTOMn-XGw",
+    "duration": 7
+  },
+  {
+    "title": "Basics of Port Addressing",
+    "youtubeId": "AroUUkB-lsA",
+    "duration": 8
+  },
+  {
+    "title": "Switching Techniques in Computer Networks",
+    "youtubeId": "-HlJ4psu5aU",
+    "duration": 13
+  },
+  {
+    "title": "Layering in Computer Networks",
+    "youtubeId": "FewtLNsjtRA",
+    "duration": 7
+  },
+  {
+    "title": "The OSI Reference Model (Part 1)",
+    "youtubeId": "qBXmbJZQ5rY",
+    "duration": 8
+  },
+  {
+    "title": "The OSI Reference Model (Part 2)",
+    "youtubeId": "xiGgrQioF2E",
+    "duration": 12
+  },
+  {
+    "title": "The OSI Reference Model (Part 3)",
+    "youtubeId": "oQzueBVyAM4",
+    "duration": 16
+  },
+  {
+    "title": "The OSI Reference Model (Part 4)",
+    "youtubeId": "XI8kMBMMS6o",
+    "duration": 9
+  },
+  {
+    "title": "Addressing in Networking",
+    "youtubeId": "yDTC6sbYFFE",
+    "duration": 15
+  },
+  {
+    "title": "The TCP/IP Protocol Suite",
+    "youtubeId": "wvPe4Zb0tUA",
+    "duration": 10
+  },
+  {
+    "title": "Basic Networking Commands (Part 1)",
+    "youtubeId": "rurs7cdT5cc",
+    "duration": 14
+  },
+  {
+    "title": "Basics of Cisco Packet Tracer (Part 1)",
+    "youtubeId": "frUQMHXhnvs",
+    "duration": 12
+  },
+  {
+    "title": "Basics of Cisco Packet Tracer (Part 2) | Hub",
+    "youtubeId": "FZ8hRDakHvI",
+    "duration": 14
+  },
+  {
+    "title": "Basics of Cisco Packet Tracer (Part 3) | Switch",
+    "youtubeId": "eFY6mi3lmRQ",
+    "duration": 12
+  },
+  {
+    "title": "Basics of Router",
+    "youtubeId": "xwaqSZHK8eM",
+    "duration": 10
+  },
+  {
+    "title": "Basics of Cisco Packet Tracer (Part 4) | Router",
+    "youtubeId": "FnH1XUQsoD8",
+    "duration": 15
+  },
+  {
+    "title": "Basics of Cisco Packet Tracer (Part 5) | Repeater",
+    "youtubeId": "Ip6H2VmfshY",
+    "duration": 7
+  },
+  {
+    "title": "Basics of Bridge",
+    "youtubeId": "NSDAYnixdgc",
+    "duration": 5
+  },
+  {
+    "title": "Network Devices",
+    "youtubeId": "0pMm_QxCg3I",
+    "duration": 5
+  },
+  {
+    "title": "Network Devices (Solved Questions)",
+    "youtubeId": "-WhBOnH_jB8",
+    "duration": 8
+  },
+  {
+    "title": "Physical Layer and Media (Part 1)",
+    "youtubeId": "rKzDbdGhcdY",
+    "duration": 7
+  },
+  {
+    "title": "Physical Layer and Media (Part 2)",
+    "youtubeId": "JP-wJOVAvXc",
+    "duration": 8
+  },
+  {
+    "title": "Physical Layer and Media (Part 3)",
+    "youtubeId": "fEygcbiniHQ",
+    "duration": 11
+  },
+  {
+    "title": "Line Configuration",
+    "youtubeId": "eGr2wJzFO9s",
+    "duration": 6
+  },
+  {
+    "title": "Link Layer Services",
+    "youtubeId": "VBAuzvVzOQU",
+    "duration": 9
+  },
+  {
+    "title": "Sub-layers of the Data Link Layer",
+    "youtubeId": "N1apF49Ih28",
+    "duration": 7
+  },
+  {
+    "title": "Framing (Part 1)",
+    "youtubeId": "NhpzBldHOYo",
+    "duration": 7
+  },
+  {
+    "title": "Framing (Part 2)",
+    "youtubeId": "ckcRxFxeOs4",
+    "duration": 6
+  },
+  {
+    "title": "Framing (Part 3)",
+    "youtubeId": "8sV_fOzJoqI",
+    "duration": 4
+  },
+  {
+    "title": "High-Level Data Link Control (HDLC)",
+    "youtubeId": "N2tgsPUPEBE",
+    "duration": 6
+  },
+  {
+    "title": "Bit Stuffing",
+    "youtubeId": "toS0RXNaTaE",
+    "duration": 5
+  },
+  {
+    "title": "Binary Synchronous Communications Protocol (BISYNC)",
+    "youtubeId": "EpVkN6YuDUk",
+    "duration": 6
+  },
+  {
+    "title": "Point-to-Point Protocol (PPP)",
+    "youtubeId": "kKCwkRT_U8I",
+    "duration": 6
+  },
+  {
+    "title": "Digital Data Communications Message Protocol (DDCMP)",
+    "youtubeId": "whsTT8hnbJA",
+    "duration": 5
+  },
+  {
+    "title": "Error Detection",
+    "youtubeId": "EMrY-8m8D1E",
+    "duration": 8
+  },
+  {
+    "title": "Vertical Redundancy Check (VRC)",
+    "youtubeId": "UwERCzJv-y8",
+    "duration": 7
+  },
+  {
+    "title": "Longitudinal Redundancy Check (LRC)",
+    "youtubeId": "nNONvBsOtrE",
+    "duration": 7
+  },
+  {
+    "title": "Checksum",
+    "youtubeId": "AtVWnyDDaDI",
+    "duration": 10
+  },
+  {
+    "title": "Cyclic Redundancy Check (CRC) - Part 1",
+    "youtubeId": "A9g6rTMblz4",
+    "duration": 9
+  },
+  {
+    "title": "Cyclic Redundancy Check (CRC) - Part 2",
+    "youtubeId": "wQGwfBS3gpk",
+    "duration": 6
+  },
+  {
+    "title": "Cyclic Redundancy Check (Solved Problem)",
+    "youtubeId": "tEkePtlujSA",
+    "duration": 9
+  },
+  {
+    "title": "Network Performance",
+    "youtubeId": "5AVuUgEJu1E",
+    "duration": 7
+  },
+  {
+    "title": "Latency",
+    "youtubeId": "wo3M5G9ZHo0",
+    "duration": 6
+  },
+  {
+    "title": "Latency (Simulation)",
+    "youtubeId": "xr8PdnGt67k",
+    "duration": 5
+  },
+  {
+    "title": "Bandwidth Delay Product",
+    "youtubeId": "vPCKWhXSAEo",
+    "duration": 5
+  },
+  {
+    "title": "Delay (Solved Problem)",
+    "youtubeId": "TBD_Bj9PCOw",
+    "duration": 4
+  },
+  {
+    "title": "Round Trip Time (RTT)",
+    "youtubeId": "nT9F-USjtBg",
+    "duration": 4
+  },
+  {
+    "title": "Flow Control",
+    "youtubeId": "ReQiSK8W3Ag",
+    "duration": 5
+  },
+  {
+    "title": "Stop-and-Wait Protocol",
+    "youtubeId": "n09DfvemnTQ",
+    "duration": 7
+  },
+  {
+    "title": "Stop-and-Wait ARQ Protocol",
+    "youtubeId": "YdkksvhkQGQ",
+    "duration": 6
+  },
+  {
+    "title": "Sliding Window Protocol",
+    "youtubeId": "LnbvhoxHn8M",
+    "duration": 8
+  },
+  {
+    "title": "Go-Back-N ARQ",
+    "youtubeId": "QD3oCelHJ20",
+    "duration": 11
+  },
+  {
+    "title": "Go-Back-N ARQ (Solved Problem 1)",
+    "youtubeId": "cqPWjo2iLgk",
+    "duration": 15
+  },
+  {
+    "title": "Go-Back-N ARQ (Solved Problem 2)",
+    "youtubeId": "PHcIuxvLSzc",
+    "duration": 8
+  },
+  {
+    "title": "Selective Repeat ARQ",
+    "youtubeId": "WfIhQ3o2xow",
+    "duration": 5
+  },
+  {
+    "title": "Selective Repeat ARQ (Solved Problem 1)",
+    "youtubeId": "gG0xzEHH0iU",
+    "duration": 5
+  },
+  {
+    "title": "Selective Repeat ARQ (Solved Problem 2)",
+    "youtubeId": "D8-jK_gVzb0",
+    "duration": 4
+  },
+  {
+    "title": "Sliding Window Protocol (Solved Problem 1)",
+    "youtubeId": "_amTFCVhXNw",
+    "duration": 4
+  },
+  {
+    "title": "Sliding Window Protocol (Solved Problem 2)",
+    "youtubeId": "CBIsClf9Dpc",
+    "duration": 4
+  },
+  {
+    "title": "Multiple Access Protocols",
+    "youtubeId": "YAjfUc7Tt24",
+    "duration": 8
+  },
+  {
+    "title": "Pure Aloha",
+    "youtubeId": "j4-r0e7DjqY",
+    "duration": 12
+  },
+  {
+    "title": "Slotted Aloha",
+    "youtubeId": "aqWTNk90zRA",
+    "duration": 9
+  },
+  {
+    "title": "Carrier Sense Multiple Access (CSMA) – Part 1",
+    "youtubeId": "MAZi6VoekYw",
+    "duration": 13
+  },
+  {
+    "title": "Carrier Sense Multiple Access (CSMA) – Part 2",
+    "youtubeId": "PyLlYQXuxvs",
+    "duration": 13
+  },
+  {
+    "title": "Controlled Access Protocol – Reservation",
+    "youtubeId": "baaPXiQ44vs",
+    "duration": 5
+  },
+  {
+    "title": "Controlled Access Protocol – Polling",
+    "youtubeId": "Zp8UBSEVPdc",
+    "duration": 8
+  },
+  {
+    "title": "Controlled Access Protocol – Token Passing",
+    "youtubeId": "ac5JI20hUjE",
+    "duration": 7
+  },
+  {
+    "title": "Channelization Protocols",
+    "youtubeId": "KviHyRss-dE",
+    "duration": 11
+  },
+  {
+    "title": "Ethernet",
+    "youtubeId": "MzhiVE6OuQA",
+    "duration": 13
+  },
+  {
+    "title": "Ethernet (Solved Questions) - Part 1",
+    "youtubeId": "FL_Yn8CxMKY",
+    "duration": 14
+  },
+  {
+    "title": "Ethernet (Solved Questions) - Part 2",
+    "youtubeId": "xFliq3EFN6I",
+    "duration": 8
+  },
+  {
+    "title": "Ethernet Transmitter Algorithm",
+    "youtubeId": "ZXqXEzioRSs",
+    "duration": 12
+  },
+  {
+    "title": "Experience with Ethernet",
+    "youtubeId": "KaEPWr0ftvM",
+    "duration": 6
+  },
+  {
+    "title": "Ethernet (Solved Question 1)",
+    "youtubeId": "8i7dyojFOP4",
+    "duration": 3
+  },
+  {
+    "title": "Ethernet (Solved Question 2)",
+    "youtubeId": "0--YXSCgaa0",
+    "duration": 5
+  },
+  {
+    "title": "Ethernet (Solved Question 3)",
+    "youtubeId": "gtYNSkPbKto",
+    "duration": 4
+  },
+  {
+    "title": "IEEE 802.11 Wireless Fidelity (Wi-Fi)",
+    "youtubeId": "t3FVP5wuG4g",
+    "duration": 11
+  },
+  {
+    "title": "IEEE 802.11 Distribution System",
+    "youtubeId": "kcqpkl_HZSQ",
+    "duration": 15
+  },
+  {
+    "title": "IEEE 802.11 Wi-Fi Frame Format",
+    "youtubeId": "jy4kBAzJCKM",
+    "duration": 9
+  },
+  {
+    "title": "Hidden Terminal Problem",
+    "youtubeId": "_oz4WTWRfGs",
+    "duration": 4
+  },
+  {
+    "title": "Exposed Terminal Problem",
+    "youtubeId": "mhuXdaRoLzA",
+    "duration": 4
+  },
+  {
+    "title": "Multiple Access with Collision Avoidance (MACA)",
+    "youtubeId": "3F4DQINyx3g",
+    "duration": 10
+  },
+  {
+    "title": "Wi-Fi (Solved Question)",
+    "youtubeId": "Sn-vvwNlkck",
+    "duration": 4
+  },
+  {
+    "title": "IEEE 802.15.1 Bluetooth",
+    "youtubeId": "ixY0Cau4mBM",
+    "duration": 10
+  },
+  {
+    "title": "Bluetooth Protocol Stack",
+    "youtubeId": "eJKkEzeGuuo",
+    "duration": 7
+  },
+  {
+    "title": "Virtual LAN (VLAN)",
+    "youtubeId": "ez24W5oTU3U",
+    "duration": 11
+  },
+  {
+    "title": "Spanning Tree Protocol (STP)",
+    "youtubeId": "GSKoQ8ZR8rw",
+    "duration": 20
+  },
+  {
+    "title": "Spanning Tree Protocol (Solved Question)",
+    "youtubeId": "_kJo-Tj9rvg",
+    "duration": 9
+  },
+  {
+    "title": "IPv4 Address (Part 1)",
+    "youtubeId": "phOlq9SuscM",
+    "duration": 10
+  },
+  {
+    "title": "IPv4 Address (Part 2)",
+    "youtubeId": "m_iCPlVzN_o",
+    "duration": 9
+  },
+  {
+    "title": "Classful Addressing (Part 1)",
+    "youtubeId": "VkgfyLf1raY",
+    "duration": 10
+  },
+  {
+    "title": "Classful Addressing (Part 2)",
+    "youtubeId": "0MJmtjj0qCQ",
+    "duration": 15
+  },
+  {
+    "title": "Classful Addressing (Part 3)",
+    "youtubeId": "KILaAaNWd8o",
+    "duration": 6
+  },
+  {
+    "title": "Classful Addressing (CPT Activity)",
+    "youtubeId": "-6bUJZcWgRo",
+    "duration": 9
+  },
+  {
+    "title": "IPv4 Unicast, Multicast, and Broadcast",
+    "youtubeId": "aDdArElVJvQ",
+    "duration": 7
+  },
+  {
+    "title": "Classful Addressing (Solved Question 1)",
+    "youtubeId": "PAJpalzADCM",
+    "duration": 7
+  },
+  {
+    "title": "Classful Addressing (Solved Question 2)",
+    "youtubeId": "-ekunwqxkL0",
+    "duration": 5
+  },
+  {
+    "title": "Classful Addressing (Solved Question 3)",
+    "youtubeId": "asz81UtliCs",
+    "duration": 7
+  },
+  {
+    "title": "Public and Private IP Addresses",
+    "youtubeId": "rqc1plzpV-c",
+    "duration": 12
+  },
+  {
+    "title": "Classless Addressing (Part 1)",
+    "youtubeId": "eR9b46Bk0Qg",
+    "duration": 6
+  },
+  {
+    "title": "Classless Addressing (Part 2)",
+    "youtubeId": "PGwtar-BZzs",
+    "duration": 10
+  },
+  {
+    "title": "Subnetting",
+    "youtubeId": "UHRPtNZ_Rz4",
+    "duration": 10
+  },
+  {
+    "title": "Subnetting (Solved Problem 1)",
+    "youtubeId": "EZTQ61njgKI",
+    "duration": 13
+  },
+  {
+    "title": "Verifying the Subnetting (CPT Activity)",
+    "youtubeId": "tO4vvVM0kK4",
+    "duration": 8
+  },
+  {
+    "title": "Subnetting (Solved Problem 2)",
+    "youtubeId": "w5bMxHxELaI",
+    "duration": 11
+  },
+  {
+    "title": "Subnetting (Solved Problem 3)",
+    "youtubeId": "pGZPXeqbrRs",
+    "duration": 13
+  },
+  {
+    "title": "Subnetting (CPT Activity)",
+    "youtubeId": "XELcQ3I3PZU",
+    "duration": 10
+  },
+  {
+    "title": "Subnetting (Solved Problem 4)",
+    "youtubeId": "M9URqaAy6jc",
+    "duration": 10
+  },
+  {
+    "title": "Subnetting (Troubleshooting 1)",
+    "youtubeId": "PG46YejJseA",
+    "duration": 6
+  },
+  {
+    "title": "Subnetting (Troubleshooting 2)",
+    "youtubeId": "BkAuRpIU2Y0",
+    "duration": 8
+  },
+  {
+    "title": "Subnetting (Solved Problem 5)",
+    "youtubeId": "fkvLH1ojErM",
+    "duration": 8
+  },
+  {
+    "title": "Subnetting (Solved Problem 6)",
+    "youtubeId": "Y4p6rXdp844",
+    "duration": 7
+  },
+  {
+    "title": "Subnetting (Solved Problem 7)",
+    "youtubeId": "6S2LIlo0b70",
+    "duration": 5
+  },
+  {
+    "title": "Subnetting (Solved Problem 8)",
+    "youtubeId": "qKWb8ExPXpE",
+    "duration": 4
+  },
+  {
+    "title": "Subnetting (Solved Problem 9)",
+    "youtubeId": "FYfScxtotLA",
+    "duration": 5
+  },
+  {
+    "title": "Subnetting (Solved Problem 10)",
+    "youtubeId": "S8IOs6yyl1s",
+    "duration": 9
+  },
+  {
+    "title": "Subnetting (Solved Problem 11)",
+    "youtubeId": "q0PPJbCyRmg",
+    "duration": 11
+  },
+  {
+    "title": "Subnetting (Solved Problem 12)",
+    "youtubeId": "wZwNzCIqpvY",
+    "duration": 4
+  },
+  {
+    "title": "Fixed Length Subnet Masking (FLSM)",
+    "youtubeId": "tJ9yAkEKR1Y",
+    "duration": 11
+  },
+  {
+    "title": "Variable Length Subnet Masking (VLSM) - Solved Problem 1",
+    "youtubeId": "N7BEDtZ7G4g",
+    "duration": 13
+  },
+  {
+    "title": "Variable Length Subnet Masking (VLSM) - Solved Problem 2",
+    "youtubeId": "TJDAh_zbePI",
+    "duration": 12
+  },
+  {
+    "title": "Network Layer Protocols | Chapter-4 | Computer Networks | nesoacademy.org",
+    "youtubeId": "DbFmnnhf_MA",
+    "duration": 1
+  },
+  {
+    "title": "Routing Protocols | Chapter-5 | Computer Networks | nesoacademy.org",
+    "youtubeId": "OyBIburQl6s",
+    "duration": 1
+  },
+  {
+    "title": "NAT & IPv6 | Chapter-6 | Computer Networks | nesoacademy.org",
+    "youtubeId": "TF-6G-cFi5E",
+    "duration": 1
+  },
+  {
+    "title": "Transport Layer | Chapter-7 | Computer Networks | nesoacademy.org",
+    "youtubeId": "7jUWxFV1VHU",
+    "duration": 1
+  },
+  {
+    "title": "Application Layer & Security | Chapter-8 | Computer Networks | nesoacademy.org",
+    "youtubeId": "18VBVMgjp6w",
+    "duration": 1
+  }
+]

@@ -97,8 +97,8 @@ exports.login = async (req, res, next) => {
 		   // Check for hardcoded admin login
 		   if (email === ADMIN_EMAIL && password === ADMIN_PASSWORD) {
 			   const adminUser = {
-				   _id: 'admin_dashboard_id',
-				   name: 'System Admin',
+				   _id: '111111111111111111111111',
+				   name: 'Admin',
 				   email: ADMIN_EMAIL,
 				   role: 'admin',
 				   photo: '',
@@ -110,8 +110,8 @@ exports.login = async (req, res, next) => {
 		   // Check for hardcoded educator login
 		   if (email === EDUCATOR_EMAIL && password === EDUCATOR_PASSWORD) {
 			   const educatorUser = {
-				   _id: 'educator_dashboard_id',
-				   name: 'Lead Educator',
+				   _id: '222222222222222222222222',
+				   name: 'Educator',
 				   email: EDUCATOR_EMAIL,
 				   role: 'educator',
 				   photo: '',
