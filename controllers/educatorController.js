@@ -5,8 +5,8 @@ exports.getStudents = async (req, res, next) => {
 	try {
 
 		   // Only allow admin to access this endpoint
-		   if (req.userRole !== 'admin') {
-			   return res.status(403).json({ message: 'Access denied. Admins only.' })
+		   if (req.userRole !== 'admin' && req.userRole !== 'educator') {
+			   return res.status(403).json({ message: 'Access denied.' })
 		   }
 		   const students = await User.find({ role: 'student' })
 			   .select('name email age createdAt')
