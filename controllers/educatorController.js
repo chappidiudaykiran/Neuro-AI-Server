@@ -8,9 +8,9 @@ exports.getStudents = async (req, res, next) => {
 		   if (req.userRole !== 'admin' && req.userRole !== 'educator') {
 			   return res.status(403).json({ message: 'Access denied.' })
 		   }
-		   const students = await User.find({ role: 'student' })
-			   .select('name email age createdAt')
-			   .lean()
+		   		const students = await User.find({ role: 'student' })
+			.select('name email age gender learningStyle attendancePercent usesExtraResources extracurricular createdAt')
+			.lean()
 
 		const enriched = await Promise.all(
 			students.map(async (student) => {

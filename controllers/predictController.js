@@ -2,9 +2,13 @@ const axios = require('axios')
 const Prediction = require('../models/Prediction')
 const buildMLPayload = require('../utils/buildMLPayload')
 const suggestSubjects = require('../utils/suggestSubjects')
+const mongoose = require('mongoose')
 
 exports.predict = async (req, res, next) => {
 	try {
+		if (!mongoose.Types.ObjectId.isValid(req.userId)) {
+			return res.status(401).json({ message: 'Invalid User ID. Please log in again.' })
+		}
 		const payload = await buildMLPayload(req.userId)
 
 		let flaskResult

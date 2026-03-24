@@ -1,5 +1,6 @@
 const SubjectFeedback = require('../models/SubjectFeedback')
 const Subject = require('../models/Subject')
+const mongoose = require('mongoose')
 
 exports.submitFeedback = async (req, res, next) => {
 	try {
@@ -22,6 +23,11 @@ exports.submitFeedback = async (req, res, next) => {
 
 		const today = new Date()
 		today.setHours(0, 0, 0, 0)
+		
+		if (!mongoose.Types.ObjectId.isValid(req.userId)) {
+			return res.status(401).json({ message: 'Invalid User ID. Please log in again.' })
+		}
+
 		const existing = await SubjectFeedback.findOne({
 			userId: req.userId,
 			subjectId,
@@ -71,6 +77,9 @@ exports.submitFeedback = async (req, res, next) => {
 
 exports.getMyFeedback = async (req, res, next) => {
 	try {
+		if (!mongoose.Types.ObjectId.isValid(req.userId)) {
+			return res.status(401).json({ message: 'Invalid User ID. Please log in again.' })
+		}
 		const feedbacks = await SubjectFeedback.find({ userId: req.userId })
 			.sort({ createdAt: -1 })
 			.limit(50)
