@@ -80,6 +80,7 @@ exports.register = async (req, res, next) => {
 				email: user.email,
 				role: user.role,
 				photo: user.photo,
+				selectedSubjects: user.selectedSubjects || [],
 			},
 		})
 	} catch (err) {
@@ -216,6 +217,7 @@ exports.googleAuth = async (req, res, next) => {
 				email: user.email,
 				role: user.role,
 				photo: user.photo,
+				selectedSubjects: user.selectedSubjects || [],
 			},
 		})
 	} catch (err) {
@@ -301,9 +303,32 @@ exports.updateProfile = async (req, res, next) => {
 				usesExtraResources: user.usesExtraResources,
 				extracurricular: user.extracurricular,
 				photo: user.photo,
+				selectedSubjects: user.selectedSubjects || [],
 			},
 		})
 	} catch (err) {
 		next(err)
 	}
+}
+
+exports.toggleSubject = async (req, res, next) => {
+	try {
+        const { subjectId } = req.params
+        const user = await User.findById(req.userId)
+        if (!user) return res.status(404).json({ message: 'User not found' })
+        
+        const index = user.selectedSubjects.indexOf(subjectId)
+        let added = false
+        if (index === -1) {
+            user.selectedSubjects.push(subjectId)
+            added = true
+        } else {
+            user.selectedSubjects.splice(index, 1)
+        }
+        await user.save()
+
+        res.json({ message: added ? 'Subject added' : 'Subject removed', selectedSubjects: user.selectedSubjects, added })
+    } catch (err) {
+        next(err)
+    }
 }

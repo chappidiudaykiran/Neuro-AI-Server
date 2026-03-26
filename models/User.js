@@ -6,12 +6,13 @@ const UserSchema = new mongoose.Schema({
 	email: { type: String, required: true, unique: true, lowercase: true, trim: true },
 	password: { type: String, required: true, minlength: 6 },
 	role: { type: String, enum: ['student', 'admin', 'educator'], default: 'student' },
-	age: { type: Number, default: 20 },
+	age: { type: Number, default: 20, min: 18, max: 30 },
 	gender: { type: Number, enum: [0, 1], default: 1 },
 	learningStyle: { type: Number, enum: [0, 1, 2], default: 0 },
 	attendancePercent: { type: Number, default: 80, min: 0, max: 100 },
 	usesExtraResources: { type: Boolean, default: false },
 	extracurricular: { type: Boolean, default: false },
+	selectedSubjects: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Subject' }],
 	photo: { type: String, default: '' },
 }, { timestamps: true })
 

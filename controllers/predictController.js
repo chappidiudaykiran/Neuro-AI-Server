@@ -10,12 +10,17 @@ exports.predict = async (req, res, next) => {
 			return res.status(401).json({ message: 'Invalid User ID. Please log in again.' })
 		}
 		const payload = await buildMLPayload(req.userId)
+		
+		const flaskPayload = {
+			student_id: req.userId,
+			features: payload
+		}
 
 		let flaskResult
 		try {
 			const flaskRes = await axios.post(
-				`${process.env.FLASK_URL}/predict`,
-				payload,
+				`${process.env.FLASK_URL}/api/v1/predict/student-matrix`,
+				flaskPayload,
 				{ timeout: 10000 }
 			)
 			flaskResult = flaskRes.data
@@ -50,6 +55,18 @@ exports.getResults = async (req, res, next) => {
 			.sort({ createdAt: -1 })
 			.limit(20)
 		res.json(predictions)
+	} catch (err) {
+		next(err)
+	}
+}
+
+exports.getPreview = async (req, res, next) => {
+	try {
+        if (!mongoose.Types.ObjectId.isValid(req.userId)) {
+			return res.status(401).json({ message: 'Invalid User ID. Please log in again.' })
+		}
+		const payload = await buildMLPayload(req.userId)
+		res.json(payload)
 	} catch (err) {
 		next(err)
 	}

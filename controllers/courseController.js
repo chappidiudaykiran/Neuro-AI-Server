@@ -1,5 +1,6 @@
 const Subject = require('../models/Subject')
 const SubjectFeedback = require('../models/SubjectFeedback')
+const User = require('../models/User')
 
 exports.getCourses = async (req, res, next) => {
 	try {
@@ -51,6 +52,18 @@ exports.getCourseById = async (req, res, next) => {
 		next(err)
 	}
 }
+
+exports.getMySubjects = async (req, res, next) => {
+    try {
+        const user = await User.findById(req.userId).populate('selectedSubjects', '-__v')
+        if (!user) return res.status(404).json({ message: 'User not found' })
+        
+        res.json(user.selectedSubjects || [])
+    } catch (err) {
+        next(err)
+    }
+}
+
 exports.createSubject = async (req, res, next) => {
 	try {
         if (req.user.role !== 'admin') {

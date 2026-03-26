@@ -24,6 +24,7 @@ app.use('/api', require('./routes/predict'))
 app.use('/api/watch', require('./routes/watch'))
 app.use('/api/results', require('./routes/results'))
 app.use('/api/educator', require('./routes/educator'))
+app.use('/api/assignments', require('./routes/assignments'))
 app.use((req, res) => {
 	res.status(404).json({ message: `Route ${req.method} ${req.path} not found.` })
 })
