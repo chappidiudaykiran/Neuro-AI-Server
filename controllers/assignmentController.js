@@ -2,7 +2,7 @@ const AssignmentSubmission = require('../models/AssignmentSubmission')
 
 exports.submitAssignment = async (req, res, next) => {
 	try {
-		const { subjectId, moduleNumber, content } = req.body
+		const { subjectId, moduleNumber, content, score, totalQuestions } = req.body
 
 		if (!subjectId || !moduleNumber || !content) {
 			return res.status(400).json({ message: 'Missing required assignment fields.' })
@@ -11,7 +11,7 @@ exports.submitAssignment = async (req, res, next) => {
 		// Save or update existing submission for this specific module
 		const submission = await AssignmentSubmission.findOneAndUpdate(
 			{ userId: req.userId, subjectId, moduleNumber },
-			{ content },
+			{ content, score, totalQuestions },
 			{ new: true, upsert: true }
 		)
 

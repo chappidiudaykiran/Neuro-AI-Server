@@ -5,6 +5,8 @@ const AssignmentSubmissionSchema = new mongoose.Schema({
 	subjectId: { type: mongoose.Schema.Types.ObjectId, ref: 'Subject', required: true },
 	moduleNumber: { type: Number, required: true },
 	content: { type: String, required: true },
+    score: { type: Number, required: false },
+    totalQuestions: { type: Number, required: false }
 }, { timestamps: true })
 
 module.exports = mongoose.model('AssignmentSubmission', AssignmentSubmissionSchema)
