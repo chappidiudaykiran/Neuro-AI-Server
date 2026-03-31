@@ -1,4 +1,5 @@
 const AssignmentSubmission = require('../models/AssignmentSubmission')
+const { runPrediction } = require('../utils/predictionService')
 
 exports.submitAssignment = async (req, res, next) => {
 	try {
@@ -14,6 +15,9 @@ exports.submitAssignment = async (req, res, next) => {
 			{ content, score, totalQuestions },
 			{ new: true, upsert: true }
 		)
+
+		// Trigger background prediction
+		runPrediction(req.userId).catch(err => console.error('[Background Predict Error]:', err.message))
 
 		res.status(200).json({ message: 'Assignment submitted successfully', submission })
 	} catch (err) {

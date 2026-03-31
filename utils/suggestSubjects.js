@@ -1,7 +1,14 @@
 const SubjectFeedback = require('../models/SubjectFeedback')
+const User = require('../models/User')
 
 const suggestSubjects = async (userId) => {
-	const feedbacks = await SubjectFeedback.find({ userId })
+	const user = await User.findById(userId)
+	const enrolledIds = user?.selectedSubjects || []
+
+	const feedbacks = await SubjectFeedback.find({ 
+		userId,
+		subjectId: { $in: enrolledIds }
+	})
 		.sort({ createdAt: -1 })
 
 	const latestPerSubject = {}

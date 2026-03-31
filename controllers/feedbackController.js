@@ -1,6 +1,7 @@
 const SubjectFeedback = require('../models/SubjectFeedback')
 const Subject = require('../models/Subject')
 const mongoose = require('mongoose')
+const { runPrediction } = require('../utils/predictionService')
 
 exports.submitFeedback = async (req, res, next) => {
 	try {
@@ -46,6 +47,10 @@ exports.submitFeedback = async (req, res, next) => {
 				attemptCount: (existing.attemptCount || 1) + 1,
 			})
 			await existing.save()
+			
+			// Trigger background prediction
+			runPrediction(req.userId).catch(err => console.error('[Background Predict Error]:', err.message))
+
 			return res.json({ message: 'Feedback updated.', feedback: existing })
 		}
 
@@ -68,6 +73,9 @@ exports.submitFeedback = async (req, res, next) => {
 			watchMinutes: watchMinutes || 0,
 			completionPct: completionPct || 0,
 		})
+
+		// Trigger background prediction
+		runPrediction(req.userId).catch(err => console.error('[Background Predict Error]:', err.message))
 
 		res.status(201).json({ message: 'Feedback saved.', feedback })
 	} catch (err) {

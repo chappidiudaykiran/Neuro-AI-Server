@@ -4,11 +4,15 @@ const User = require('../models/User')
 const buildMLPayload = async (userId) => {
 	const user = await User.findById(userId)
 	if (!user) throw new Error("User profile not found for the given ID. Session may be corrupted.")
+	
 	const sevenDaysAgo = new Date()
 	sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7)
 
+	const enrolledIds = user.selectedSubjects || []
+
 	const recentFeedbacks = await SubjectFeedback.find({ 
 		userId, 
+		subjectId: { $in: enrolledIds },
 		createdAt: { $gte: sevenDaysAgo } 
 	})
 
@@ -19,7 +23,7 @@ const buildMLPayload = async (userId) => {
 
 	// 2. Telemetry
 	const StudyHours = recentFeedbacks.reduce((sum, f) => sum + (f.watchMinutes || 0), 0) / 60
-	const Attendance = user.attendancePercent || 80
+	const Attendance = user.attendancePercent ?? 80
 	const OnlineCourses = user.selectedSubjects?.length || 0
 
 	const Discussions = recentFeedbacks.some((f) => f.discussionJoined) ? 1 : (user.extracurricular ? 1 : 0)
