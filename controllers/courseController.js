@@ -66,8 +66,8 @@ exports.getMySubjects = async (req, res, next) => {
 
 exports.createSubject = async (req, res, next) => {
 	try {
-        if (req.user.role !== 'admin') {
-            return res.status(403).json({ message: 'Only admin can perform this action' })
+        if (req.userRole !== 'admin' && req.userRole !== 'educator') {
+            return res.status(403).json({ message: 'Only admin/educator can perform this action' })
         }
 		const { name, shortName, description, category, videos } = req.body
 
@@ -89,8 +89,8 @@ exports.createSubject = async (req, res, next) => {
 
 exports.updateSubject = async (req, res, next) => {
 	try {
-        if (req.user.role !== 'admin') {
-            return res.status(403).json({ message: 'Only admin can perform this action' })
+        if (req.userRole !== 'admin' && req.userRole !== 'educator') {
+            return res.status(403).json({ message: 'Only admin/educator can perform this action' })
         }
 		const { name, shortName, description, category, videos } = req.body
 
@@ -109,8 +109,8 @@ exports.updateSubject = async (req, res, next) => {
 
 exports.deleteSubject = async (req, res, next) => {
 	try {
-        if (req.user.role !== 'admin') {
-            return res.status(403).json({ message: 'Only admin can perform this action' })
+        if (req.userRole !== 'admin' && req.userRole !== 'educator') {
+            return res.status(403).json({ message: 'Only admin/educator can perform this action' })
         }
 		const subject = await Subject.findByIdAndDelete(req.params.id)
         if (!subject) return res.status(404).json({ message: 'Subject not found' })
