@@ -1,9 +1,15 @@
 const SubjectFeedback = require('../models/SubjectFeedback')
 const User = require('../models/User')
+const Subject = require('../models/Subject')
 
 const suggestSubjects = async (userId) => {
 	const user = await User.findById(userId)
 	const enrolledIds = user?.selectedSubjects || []
+
+	// Fetch actual subject data to get stressTags
+	const subjects = await Subject.find({ _id: { $in: enrolledIds } }).select('name stressTag')
+	const subjectMap = {}
+	subjects.forEach(s => subjectMap[s._id.toString()] = s.stressTag)
 
 	const feedbacks = await SubjectFeedback.find({ 
 		userId,
@@ -20,7 +26,7 @@ const suggestSubjects = async (userId) => {
 	const suggestions = []
 
 	Object.values(latestPerSubject).forEach((f) => {
-		const { subjectName, stressFelt, confidenceRating, completionPct, attemptCount } = f
+		const { subjectName, subjectId, stressFelt, confidenceRating, completionPct, attemptCount } = f
 
 		let action
 		let message
@@ -45,7 +51,12 @@ const suggestSubjects = async (userId) => {
 			message = `You are making steady progress with ${subjectName}. Keep going!`
 		}
 
-		suggestions.push({ subject: subjectName || 'Unknown', action, message })
+		suggestions.push({ 
+			subject: subjectName || 'Unknown', 
+			stressTag: subjectMap[subjectId?.toString()] || 'medium_stress',
+			action, 
+			message 
+		})
 	})
 
 	return suggestions

@@ -47,14 +47,20 @@ exports.getResults = async (req, res, next) => {
 	}
 }
 
+const { calculateStudentSubjectGrades } = require('../subject_grading/calculateGrade')
+
 exports.getPreview = async (req, res, next) => {
 	try {
-		console.log(`[GET /preview] Fetching preview for user: ${req.userId}`)
         if (!mongoose.Types.ObjectId.isValid(req.userId)) {
 			return res.status(401).json({ message: 'Invalid User ID. Please log in again.' })
 		}
 		const payload = await buildMLPayload(req.userId)
-		res.json(payload)
+		const gradesBreakdown = await calculateStudentSubjectGrades(req.userId)
+
+		res.json({
+			payload,
+			gradesBreakdown
+		})
 	} catch (err) {
 		console.error('[GET /preview] Error:', err.message)
 		next(err)

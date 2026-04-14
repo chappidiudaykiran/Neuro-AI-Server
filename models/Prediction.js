@@ -9,8 +9,8 @@ const SuggestionSchema = new mongoose.Schema({
 const PredictionSchema = new mongoose.Schema({
 	userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
 	mlPayload: { type: Object },
-	grade: { type: Number, min: 0, max: 3 },
-	stress: { type: Number, min: 0, max: 2 },
+	grade: { type: Number },
+	stress: { type: Number },
 	state: { type: String, enum: ['optimal', 'burnout_risk', 'academic_gap', 'critical'] },
 	suggestions: [SuggestionSchema],
 }, { timestamps: true })

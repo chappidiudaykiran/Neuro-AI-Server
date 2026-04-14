@@ -18,25 +18,39 @@ const runPrediction = async (userId) => {
 		}
 
 		const flaskRes = await axios.post(
-			`${process.env.FLASK_URL}/api/v1/predict/student-matrix`,
+			`${process.env.FLASK_URL}/api/v1/predict`,
 			flaskPayload,
 			{ timeout: 15000 }
 		)
 		const flaskResult = flaskRes.data
 
-		const grade = flaskResult.analysis?.academic_profile?.raw_score
-		const stress = flaskResult.analysis?.psychological_profile?.raw_score
-		const rawMlState = flaskResult.analysis?.matrix_state?.state_code
-		const mlState = typeof rawMlState === 'string' ? rawMlState.trim() : rawMlState
+		// New Schema Mapping: predictions.academic.grade and predictions.psychological.stress
+		const grade = flaskResult.predictions?.academic?.grade
+		const stress = flaskResult.predictions?.psychological?.stress
+		
+		// Map matrix_label and action to our internal state
+		const rawMlState = flaskResult.matrix_label || flaskResult.action
+		const mlState = typeof rawMlState === 'string' ? rawMlState.trim().toUpperCase().replace(/\s+/g, '_') : ''
 
 		const stateMap = {
 			'OPTIMAL': 'optimal',
 			'BURNOUT_RISK': 'burnout_risk',
 			'ACADEMIC_GAP': 'academic_gap',
 			'CRITICAL': 'critical',
+			'OPTIMAL_PERFORMANCE': 'optimal',
+			'STRESSED': 'burnout_risk',
+			'UNDERPERFORMING': 'academic_gap',
+			'CRITICAL_ALERT': 'critical',
+			'BURNOUT_RISK': 'burnout_risk' // Explicitly handle the one we just saw
 		}
 		
-		const state = stateMap[mlState] || (typeof mlState === 'string' ? mlState.toLowerCase() : deriveState(grade, stress))
+		let state = stateMap[mlState] || (typeof mlState === 'string' && mlState ? mlState.toLowerCase() : deriveState(grade, stress))
+		
+		// Final safety check: ensure state matches Mongoose enum
+		const validStates = ['optimal', 'burnout_risk', 'academic_gap', 'critical'];
+		if (!validStates.includes(state)) {
+			state = deriveState(grade, stress); // Fallback to safe derivation
+		}
 		const suggestions = await suggestSubjects(userId)
 
 		const prediction = await Prediction.create({

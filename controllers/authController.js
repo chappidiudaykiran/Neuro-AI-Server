@@ -141,6 +141,7 @@ exports.login = async (req, res, next) => {
 				   email: user.email,
 				   role: user.role,
 				   photo: user.photo,
+			   selectedSubjects: user.selectedSubjects || [],
 			   },
 		   })
 	} catch (err) {

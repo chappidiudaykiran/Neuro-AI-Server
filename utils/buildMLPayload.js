@@ -1,5 +1,7 @@
 const SubjectFeedback = require('../models/SubjectFeedback')
+const AssignmentSubmission = require('../models/AssignmentSubmission')
 const User = require('../models/User')
+const { calculateStudentSubjectGrades } = require('../subject_grading/calculateGrade')
 
 const buildMLPayload = async (userId) => {
 	const user = await User.findById(userId)
@@ -29,6 +31,22 @@ const buildMLPayload = async (userId) => {
 	const Discussions = recentFeedbacks.some((f) => f.discussionJoined) ? 1 : (user.extracurricular ? 1 : 0)
 	const Internet = 1
 
+	// 3. New Performance Features - Using the official Subject Grading Service
+	const subjectGrades = await calculateStudentSubjectGrades(userId)
+	
+	// Average grade across all enrolled subjects
+	const avgCalculatedGrade = subjectGrades.length > 0
+		? subjectGrades.reduce((sum, g) => sum + g.calculatedGrade, 0) / subjectGrades.length
+		: 75 // Default 75 if no work done yet
+
+	const assignments = await AssignmentSubmission.find({ userId })
+	const AssignmentsCompleted = assignments.length
+	
+	const ExamScore = avgCalculatedGrade
+	
+	const Participation = Attendance >= 80 ? 1 : 0
+	const InternetQuality = 1
+
 	const payload = {
 		Age,
 		Gender,
@@ -37,7 +55,11 @@ const buildMLPayload = async (userId) => {
 		Attendance: Number(Attendance.toFixed(1)),
 		OnlineCourses,
 		Discussions,
-		Internet
+		Internet,
+		InternetQuality,
+		AssignmentsCompleted,
+		ExamScore: Number(ExamScore.toFixed(1)),
+		Participation
 	}
 
 	return payload
