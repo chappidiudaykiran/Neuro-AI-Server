@@ -6,7 +6,15 @@ const errorHandler = require('./middleware/errorHandler')
 const app = express()
 
 app.use(cors({
-	origin: process.env.CLIENT_URL || 'http://localhost:5173',
+	origin: function(origin, callback) {
+		const allowed = (process.env.CLIENT_URL || 'http://localhost:5173').split(',').map(s => s.trim());
+		// Allow requests with no origin (mobile apps, curl, etc.)
+		if (!origin || allowed.some(url => origin.startsWith(url)) || origin.endsWith('.vercel.app')) {
+			callback(null, true);
+		} else {
+			callback(null, true); // Be permissive for now
+		}
+	},
 	credentials: true,
 }))
 
