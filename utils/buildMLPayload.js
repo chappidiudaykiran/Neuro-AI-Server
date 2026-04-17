@@ -1,8 +1,11 @@
 const SubjectFeedback = require('../models/SubjectFeedback')
 const AssignmentSubmission = require('../models/AssignmentSubmission')
 const User = require('../models/User')
-const { calculateStudentSubjectGrades } = require('../subject_grading/calculateGrade')
 
+/**
+ * Builds the 8-feature payload required by the Student Performance Inference API v1.0.0.
+ * All engineered features (Engagement, Consistency, etc.) are computed server-side by the ML API.
+ */
 const buildMLPayload = async (userId) => {
 	const user = await User.findById(userId)
 	if (!user) throw new Error("User profile not found for the given ID. Session may be corrupted.")
@@ -18,48 +21,45 @@ const buildMLPayload = async (userId) => {
 		createdAt: { $gte: sevenDaysAgo } 
 	})
 
-	// 1. Demographics
-	const Age = user.age || 20
-	const Gender = user.gender ?? 1
-	const LearningStyle = user.learningStyle ?? 0
+	// 1. StudyHours — average daily study time from watch minutes (last 7 days)
+	const totalWatchMinutes = recentFeedbacks.reduce((sum, f) => sum + (f.watchMinutes || 0), 0)
+	const StudyHours = Number((totalWatchMinutes / 60).toFixed(1))
 
-	// 2. Telemetry
-	const StudyHours = recentFeedbacks.reduce((sum, f) => sum + (f.watchMinutes || 0), 0) / 60
-	const Attendance = user.attendancePercent ?? 80
-	const OnlineCourses = user.selectedSubjects?.length || 0
+	// 2. Attendance — from user profile
+	const Attendance = Number((user.attendancePercent ?? 80).toFixed(1))
 
-	const Discussions = recentFeedbacks.some((f) => f.discussionJoined) ? 1 : (user.extracurricular ? 1 : 0)
-	const Internet = 1
+	// 3. Resources — learning resource usage score
+	const Resources = user.usesExtraResources ? 5.0 : 2.0
 
-	// 3. New Performance Features - Using the official Subject Grading Service
-	const subjectGrades = await calculateStudentSubjectGrades(userId)
-	
-	// Average grade across all enrolled subjects
-	const avgCalculatedGrade = subjectGrades.length > 0
-		? subjectGrades.reduce((sum, g) => sum + g.calculatedGrade, 0) / subjectGrades.length
-		: 75 // Default 75 if no work done yet
+	// 4. OnlineCourses — number of enrolled subjects
+	const OnlineCourses = enrolledIds.length || 0
 
-	const assignments = await AssignmentSubmission.find({ userId })
-	const AssignmentsCompleted = assignments.length
-	
-	const ExamScore = avgCalculatedGrade
-	
-	const Participation = Attendance >= 80 ? 1 : 0
-	const InternetQuality = 1
+	// 5. Discussions — forum/discussion participation score
+	const discussionCount = recentFeedbacks.filter(f => f.discussionJoined).length
+	const Discussions = Math.min(discussionCount + (user.extracurricular ? 1 : 0), 10)
+
+	// 6. AssignmentCompletion — percentage of assignments completed
+	const allAssignments = await AssignmentSubmission.find({ userId })
+	const totalPossible = enrolledIds.length * 5 // estimate ~5 assignments per subject
+	const AssignmentCompletion = totalPossible > 0
+		? Number(Math.min((allAssignments.length / totalPossible) * 100, 100).toFixed(1))
+		: 0.0
+
+	// 7. EduTech — educational technology usage score
+	const EduTech = recentFeedbacks.length > 0 ? Math.min(recentFeedbacks.length, 10) : 3.0
+
+	// 8. Extracurricular — involvement score
+	const Extracurricular = user.extracurricular ? 3.0 : 1.0
 
 	const payload = {
-		Age,
-		Gender,
-		LearningStyle,
-		StudyHours: Number(StudyHours.toFixed(1)),
-		Attendance: Number(Attendance.toFixed(1)),
+		StudyHours,
+		Attendance,
+		Resources,
 		OnlineCourses,
 		Discussions,
-		Internet,
-		InternetQuality,
-		AssignmentsCompleted,
-		ExamScore: Number(ExamScore.toFixed(1)),
-		Participation
+		AssignmentCompletion,
+		EduTech,
+		Extracurricular
 	}
 
 	return payload

@@ -11,8 +11,10 @@ const PredictionSchema = new mongoose.Schema({
 	mlPayload: { type: Object },
 	grade: { type: Number },
 	stress: { type: Number },
-	state: { type: String, enum: ['optimal', 'burnout_risk', 'academic_gap', 'critical'] },
+	state: { type: String, enum: ['optimal', 'monitor', 'burnout_risk', 'underperforming', 'at_risk', 'critical'] },
+	riskScore: { type: Number },
 	suggestions: [SuggestionSchema],
+	rawResponse: { type: Object },
 }, { timestamps: true })
 
 PredictionSchema.index({ userId: 1, createdAt: -1 })

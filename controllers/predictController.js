@@ -30,15 +30,9 @@ exports.getResults = async (req, res, next) => {
 		const user = await User.findById(req.userId).populate('selectedSubjects')
 		const enrolledNames = user?.selectedSubjects?.map(s => s.name) || []
 
-		let predictions = await Prediction.find({ userId: req.userId })
+		const predictions = await Prediction.find({ userId: req.userId })
 			.sort({ createdAt: -1 })
 			.limit(20)
-		
-		// Filter suggestions in existing predictions to only show enrolled subjects
-		predictions = predictions.map(p => {
-			const filteredSuggestions = p.suggestions.filter(s => enrolledNames.includes(s.subject))
-			return { ...p.toObject(), suggestions: filteredSuggestions }
-		})
 
 		res.json(predictions)
 	} catch (err) {
