@@ -17,6 +17,7 @@ app.get('/health', (req, res) => {
 	res.json({ status: 'ok', service: 'neuro-ai-server', time: new Date().toISOString() })
 })
 
+app.use('/api/support', require('./routes/support'))
 app.use('/api/auth', require('./routes/auth'))
 app.use('/api/courses', require('./routes/courses'))
 app.use('/api/feedback', require('./routes/feedback'))

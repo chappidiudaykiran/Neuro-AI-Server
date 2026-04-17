@@ -17,7 +17,7 @@ const runPrediction = async (userId) => {
 		}
 
 		const flaskRes = await axios.post(
-			`${process.env.FLASK_URL}/predict`,
+			`${process.env.FLASK_URL}/api/v1/predict`,
 			flaskPayload,
 			{ timeout: 15000 }
 		)

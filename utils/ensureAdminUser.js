@@ -39,6 +39,35 @@ const ensureAdminUser = async () => {
 		await user.save()
 		console.log(`Admin user updated: ${ADMIN_EMAIL}`)
 	}
+
+	// ENSURE EDUCATOR USER
+	const EDUCATOR_EMAIL = (process.env.EDUCATOR_EMAIL || 'educator@gmail.com').toLowerCase().trim()
+	const EDUCATOR_PASSWORD = process.env.EDUCATOR_PASSWORD || 'educator@123'
+	const EDUCATOR_ID = '222222222222222222222222'
+
+	let educator = await User.findById(EDUCATOR_ID)
+	if (!educator) {
+		educator = await User.findOne({ email: EDUCATOR_EMAIL })
+	}
+
+	if (!educator) {
+		await User.create({
+			_id: EDUCATOR_ID,
+			name: 'Educator',
+			email: EDUCATOR_EMAIL,
+			password: EDUCATOR_PASSWORD,
+			role: 'educator'
+		})
+		console.log(`Educator user created: ${EDUCATOR_EMAIL}`)
+	} else if (educator.role !== 'educator' || String(educator._id) !== EDUCATOR_ID) {
+		// If email exists but ID or role is wrong, we might have a conflict.
+		// For now, just ensure the role is correct if it's the right ID.
+		if (String(educator._id) === EDUCATOR_ID && educator.role !== 'educator') {
+			educator.role = 'educator'
+			await educator.save()
+			console.log(`Educator role updated for: ${EDUCATOR_EMAIL}`)
+		}
+	}
 }
 
 module.exports = ensureAdminUser
