@@ -6,24 +6,43 @@ const Support = require('../models/Support');
 // It relies exclusively on req.userId and req.userRole set by verifyToken
 
 exports.createTicket = async (req, res) => {
-  console.log('[SUPPORT-CORE] createTicket called | userId:', req.userId);
+  console.log('[SUPPORT-CORE] createTicket called | userId:', req.userId, '| role:', req.userRole);
   try {
-    const { subject, message } = req.body;
-    const studentId = req.userId;
-
-    if (!studentId || typeof studentId !== 'string') {
-      console.error('[SUPPORT-CORE] CRITICAL: Invalid or missing studentId');
-      return res.status(401).json({ success: false, message: 'Auth Fault: User ID is ' + (typeof studentId) });
+    const { subject, message, studentId: bodyStudentId } = req.body;
+    
+    console.log('[SUPPORT-DEBUG] bodyStudentId from req.body:', bodyStudentId);
+    console.log('[SUPPORT-DEBUG] req.userId:', req.userId);
+    console.log('[SUPPORT-DEBUG] req.userRole:', req.userRole);
+    
+    // Explicitly determine target student
+    let studentId;
+    if (req.userRole === 'educator' || req.userRole === 'admin') {
+      studentId = bodyStudentId;
+      console.log('[SUPPORT-DEBUG] Educator mode: using bodyStudentId as studentId:', studentId);
+    } else {
+      studentId = req.userId;
+      console.log('[SUPPORT-DEBUG] Student mode: using req.userId as studentId:', studentId);
     }
+
+    if (!studentId) {
+      console.error('[SUPPORT-CORE] CRITICAL: Invalid or missing studentId');
+      return res.status(400).json({ success: false, message: 'Recipient student ID is required' });
+    }
+
+    console.log('[SUPPORT-DEBUG] FINAL studentId for ticket:', studentId);
+    console.log('[SUPPORT-DEBUG] FINAL initiatorId for ticket:', req.userId);
 
     const ticket = new Support({
       studentId,
-      subject: subject || 'Support Request',
-      message: message || ''
+      initiatorId: req.userId,
+      isEducatorInitiated: req.userRole === 'educator' || req.userRole === 'admin',
+      subject: subject || 'Academic Support Thread',
+      message: message || '',
+      status: req.userRole === 'educator' ? 'replied' : 'open'
     });
 
     await ticket.save();
-    console.log('[SUPPORT-CORE] Ticket created successfully:', ticket._id);
+    console.log('[SUPPORT-CORE] Ticket created successfully:', ticket._id, '| studentId:', ticket.studentId, '| initiatorId:', ticket.initiatorId);
     res.status(201).json({ success: true, ticket });
   } catch (err) {
     console.error('[SUPPORT-CORE] createTicket EXCEPTION:', err);
@@ -51,6 +70,7 @@ exports.getTickets = async (req, res) => {
 
     const tickets = await Support.find(filter)
       .populate('studentId', 'name email')
+      .populate('initiatorId', 'name email role')
       .populate('replies.senderId', 'name role')
       .sort({ updatedAt: -1 })
       .lean();
@@ -113,7 +133,8 @@ exports.getSupportSummary = async (req, res) => {
           lastUpdate: 1,
           ticketCount: 1,
           "studentInfo.name": 1,
-          "studentInfo.email": 1
+          "studentInfo.email": 1,
+          "studentInfo.photo": 1
         }
       },
       { $sort: { lastUpdate: -1 } }
@@ -145,6 +166,9 @@ exports.replyToTicket = async (req, res) => {
     }
 
     ticket.replies.push({ senderId: senderId, message: message || '' });
+    if (req.userRole === 'educator' || req.userRole === 'admin') {
+      ticket.isEducatorInitiated = true; // Mark as educator engaged if they haven't already
+    }
     ticket.status = 'replied';
     await ticket.save();
 

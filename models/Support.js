@@ -6,6 +6,14 @@ const supportSchema = new mongoose.Schema({
     ref: 'User',
     required: true
   },
+  initiatorId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User'
+  },
+  isEducatorInitiated: {
+    type: Boolean,
+    default: false
+  },
   subject: {
     type: String,
     required: true,

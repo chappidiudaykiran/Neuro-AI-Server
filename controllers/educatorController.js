@@ -9,7 +9,7 @@ exports.getStudents = async (req, res, next) => {
 			   return res.status(403).json({ message: 'Access denied.' })
 		   }
 		   		const students = await User.find({ role: 'student' })
-			.select('name email age gender learningStyle attendancePercent usesExtraResources extracurricular createdAt')
+			.select('name email age gender learningStyle attendancePercent usesExtraResources extracurricular createdAt photo')
 			.lean()
 
 		const enriched = await Promise.all(
